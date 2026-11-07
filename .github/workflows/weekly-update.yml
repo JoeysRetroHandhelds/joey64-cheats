@@ -1,0 +1,62 @@
+name: Weekly update
+
+# Pulls the four sources again, converts them, and when anything changed puts the result on the
+# weekly-update branch with a pull request into main for review. release (what Joey64 downloads)
+# only moves by hand after the review: git branch -f release main && git push origin release.
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Mondays 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull the sources
+        run: sh tools/update-sources.sh "$RUNNER_TEMP/src" | tee "$RUNNER_TEMP/sources.txt"
+
+      - name: Convert
+        run: python tools/convert.py | tee "$RUNNER_TEMP/convert.txt"
+
+      - name: Branch and pull request when something changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing changed."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B weekly-update
+          git add -A
+          git commit -q -m "Weekly update $(date -u +%F)"
+          git push -f origin weekly-update
+          {
+            echo "Sources and lists pulled again on $(date -u +%F)."
+            echo
+            echo '```'
+            cat "$RUNNER_TEMP/sources.txt" "$RUNNER_TEMP/convert.txt"
+            echo '```'
+            echo
+            git diff --stat HEAD~1 -- index.json dist/index.json sources | tail -3
+            echo
+            echo "After review: merge, then move release to main so Joey64 downloads it."
+          } > "$RUNNER_TEMP/body.md"
+          if gh pr view weekly-update --json state -q .state 2>/dev/null | grep -q OPEN; then
+            gh pr edit weekly-update --body-file "$RUNNER_TEMP/body.md"
+          else
+            gh pr create --base main --head weekly-update --title "Weekly update $(date -u +%F)" --body-file "$RUNNER_TEMP/body.md" \
+              || echo "::warning::No pull request made (the repo may not let Actions open them); the update is on the weekly-update branch."
+          fi

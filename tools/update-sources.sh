@@ -10,6 +10,10 @@ get() { # repo dir path [path...]
   if [ -d "$w/$d" ]; then git -C "$w/$d" pull -q; else git clone -q --depth 1 --filter=blob:none --sparse "$r" "$w/$d" && git -C "$w/$d" sparse-checkout set "$@"; fi
   echo "$d: $(git -C "$w/$d" rev-parse HEAD)"
 }
+stamp() { # SOURCE.md dir: writes that clone's commit and date into its "commit <sha> (<date>)"
+  sha=$(git -C "$w/$2" rev-parse HEAD); day=$(git -C "$w/$2" log -1 --format=%cs)
+  sed -i -E "s/commit [0-9a-f]{40} \([0-9-]+\)/commit $sha ($day)/" "$here/sources/$1/SOURCE.md"
+}
 get https://github.com/project64/project64 pj64 Config/Cheats Config/Enhancements
 get https://github.com/Rosalie241/RMG rmg Data/Cheats/Custom
 get https://github.com/libretro/libretro-database lrdb "cht/Nintendo - Nintendo 64"
@@ -24,4 +28,5 @@ cp "$w"/rmg/Data/Cheats/Custom/*.cht "$here/sources/rmg-custom/"
 cp "$w/lrdb/cht/Nintendo - Nintendo 64/"*.cht "$here/sources/libretro/"
 python "$here/tools/extract-retroben.py" "$w/fz/app/src/main/assets/mupen64plus_data/mupencheat.default" "$w/up/data/mupencheat.txt"
 cp "$w/up/data/mupen64plus.ini" "$here/tools/mupen64plus.ini"
-echo "Now update each SOURCE.md's commit, run tools/convert.py and review the diff."
+stamp project64 pj64; stamp rmg-custom rmg; stamp libretro lrdb
+echo "Now run tools/convert.py and review the diff."
