@@ -1,0 +1,1 @@
+{"source":"rmg-custom","license":"GPL-3.0-only","key":"B6BBEE96-61A68F52-43","game":"Custom Robo (CHN) [SaveFix]","cheats":[{"name":"Player 1 HP 1000","codes":["81241A70 3F80","81241A72 00??"],"options":[["00","Off"],["01","On"]]},{"name":"Enemy HP 0","codes":["8128B8A8 0000","8128B8AA 0000"]},{"name":"Have all the story mode part","codes":["50001802 0000","81125E84 FFFF"]}]}

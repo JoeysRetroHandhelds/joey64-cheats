@@ -1,0 +1,1 @@
+{"source":"libretro","license":"CC-BY-SA-4.0","key":"69AE0438-2C63F3F3-4A","game":"Zelda no Densetsu - Mujura no Kamen (Japan) (Rev 1)","cheats":[{"name":"Inf Hearts","codes":["811EF744 0140","811EF746 0140"]},{"name":"Enable Code","codes":["F1097720 2400","FF000220 0000"],"flags":["boot"]},{"name":"Disable 3-day Timer","codes":["810F88AC 2400"]}]}
