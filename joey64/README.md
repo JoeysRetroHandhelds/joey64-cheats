@@ -1,1 +1,1 @@
-Codes written or fixed for Joey64, in mupen64plus-core's mupencheat.txt format (`crc`, `gn`, `cn`, `cd`, codes), one `.txt` per topic. GPL-3.0-or-later. Empty for now.
+Codes written or fixed for Joey64, in mupen64plus-core's mupencheat.txt format (`crc`, `gn`, `cn`, `cd`, codes), one `.txt` per topic. GPL-3.0-or-later. `widescreen.txt`: widescreen codes from the widescreen finder, once play-tested.

@@ -86,7 +86,7 @@ unreviewed. The app reads `release` and checks it again at most once a week.
 
 Checked against Project64's codes: it finds the same spots for Super Mario 64, Mario Kart 64 and Banjo-Kazooie. Tried on five games with no code, from Joey's states on the Thor:
 
-- GoldenEye 007 (U): works, `81003D84 3C07` + `81003D86 3FE3` (more on both sides). Not play-tested yet: HUD, culling at the edges, other levels.
+- GoldenEye 007 (U): works, `81003D84 3C07` + `81003D86 3FE3` (more on both sides). Play-tested on the Thor 2026-11-07 in one room of Joey's save, shown at 16:9: shapes right, nothing missing at the edges, 60 fps; the HUD is drawn wider, as with any such code. In `joey64/widescreen.txt`. Other levels not tried.
 - Conker's Bad Fur Day (U), Perfect Dark (U) (Rev 1), Cruis'n USA (U): no change from any candidate. They build the projection their own way, so these need work by hand.
 - Yoshi's Story (U): the guPerspective calls changed nothing visible; not found.
 

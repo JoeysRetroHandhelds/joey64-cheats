@@ -1,0 +1,8 @@
+// Widescreen codes found or fixed for Joey64 (README: Widescreen finder). GPL-3.0-or-later.
+
+crc DCBC50D1-09FD1AA3-C:45
+gn GoldenEye 007 (U)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9. Play-tested on the Thor 2026-11-07 (one room): shapes right, more seen at the sides, the HUD drawn wider
+  81003D84 3C07
+  81003D86 3FE3
