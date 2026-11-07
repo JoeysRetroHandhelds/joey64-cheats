@@ -1,2 +1,2 @@
-Extracted from https://github.com/mupen64plus-ae/mupen64plus-ae, `app/src/main/assets/mupen64plus_data/mupencheat.default` (copy taken 2026-11-05), compared with mupen64plus-core's `data/mupencheat.txt` by tools/extract-retroben.py: only the cheats FZ adds (retroben, 2016-17).
+Extracted from https://github.com/mupen64plus-ae/mupen64plus-ae, `app/src/main/assets/mupen64plus_data/mupencheat.default`, commit 33bf7021549d7873e976884370fbd1a8e7333bc7 (2026-08-28), compared with mupen64plus-core's `data/mupencheat.txt` (commit a9ca8ec0b7decd17390c76c6341cf423d5d79321) by tools/extract-retroben.py: only the cheats FZ adds to upstream, most of them retroben's (2016-17).
 M64Plus FZ's licence: GPL-3.0. LICENSE here is the GPL version 3 text.
