@@ -26,7 +26,7 @@ BOOT = ("F0", "F1", "FF", "EE")
 # wide, and the game run at 60 fps. Matched by name; "always off" ones turn a game's own
 # widescreen off, and stay cheats.
 WIDESCREEN = re.compile(r"wide ?screen|anamorphic|16[-:x]9", re.I)
-SIXTY = re.compile(r"\b60 ?fps\b", re.I)
+SIXTY = re.compile(r"\b60 ?fps\b|\bsixty (frames|hack)|\bfifty frames|\b60 ?frames", re.I)
 # A libretro list with more than this many cheats of one name pattern ("Soldier #42") is a bulk
 # list: left out, and counted in the file's "left_out".
 BULK = 40
@@ -191,6 +191,17 @@ def main():
 
     for f in sorted(glob.glob(os.path.join(SRC, "project64", "*.cht"))):
         found["project64"].update(parse_pj64(open(f, encoding="utf-8", errors="replace").read()))
+    # Project64's Enhancements (Config/Enhancements/*.enh, the same .cht format): only its widescreen
+    # and frame-rate codes are taken, for their own menu spots. Its other enhancements are fixes
+    # Project64 applies for its own plugins (OnByDefault, PluginList) and aren't cheats.
+    for f in sorted(glob.glob(os.path.join(SRC, "project64", "enhancements", "*.enh"))):
+        for k, g in parse_pj64(open(f, encoding="utf-8", errors="replace").read()).items():
+            keep = [c for c in g["cheats"] if {"widescreen", "60fps"} & set(c.get("flags", []))]
+            if not keep:
+                continue
+            have = found["project64"].setdefault(k, {"name": g["name"], "cheats": []})
+            seen = {c["name"] for c in have["cheats"]}
+            have["cheats"] += [c for c in keep if c["name"] not in seen]
     for f in sorted(glob.glob(os.path.join(SRC, "rmg-custom", "*.cht"))):
         found["rmg-custom"].update(parse_pj64(open(f, encoding="utf-8", errors="replace").read()))
     for f in sorted(glob.glob(os.path.join(SRC, "fz-retroben", "*.txt"))):

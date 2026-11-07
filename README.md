@@ -12,7 +12,7 @@ device.
 
 | Folder | From | Licence |
 |---|---|---|
-| `sources/project64/` | Project64 `Config/Cheats` (github.com/project64/project64) | GPL-2.0-only (Project64's licence) |
+| `sources/project64/` | Project64 `Config/Cheats`, and `Config/Enhancements` in `enhancements/` (github.com/project64/project64) | GPL-2.0-only (Project64's licence) |
 | `sources/rmg-custom/` | Rosalie's Mupen GUI `Data/Cheats/Custom` (github.com/Rosalie241/RMG) | GPL-3.0 |
 | `sources/fz-retroben/` | retroben's codes in M64Plus FZ's `mupencheat.default`, only the ones it adds to mupen64plus-core's list (`tools/extract-retroben.py`) | GPL-3.0 |
 | `sources/libretro/` | libretro-database `cht/Nintendo - Nintendo 64` (github.com/libretro/libretro-database) | CC BY-SA 4.0 |
@@ -54,7 +54,7 @@ It can also have:
 
 - **`gs_button`:** needs the GameShark's own button (codes starting 88, 89, A8, A9, D8 to DB). Joey64 has none, so it hides these.
 - **`boot`:** a boot-time code (F0, F1, FF, EE). It works only from the game's start, so turning it on needs a reset.
-- **`widescreen`, `60fps`:** codes that make the picture wide or run the game at 60 fps, matched by name. "Always off" codes are left out: they turn a game's own widescreen off. These belong in their own menu spots, not Cheats (Joey, 2026-11-06), so Joey64 keeps them off the Cheats page. `index.json` lists them per game in `"extras"`.
+- **`widescreen`, `60fps`:** codes that make the picture wide or run the game at 60 fps (50 for PAL games), matched by name. Most come from Project64's Enhancements, where only these are taken: its other enhancements are fixes for its own plugins, mostly on by default there. "Always off" codes are left out: they turn a game's own widescreen off. These belong in their own menu spots, not Cheats (Joey, 2026-11-06), so Joey64 keeps them off the Cheats page. `index.json` lists them per game in `"extras"`.
 - **`needs_value`:** a `?` or `X` value with no options to pick from. Joey64 hides these for now.
 
 **Bulk lists.** libretro's bulk lists are left out and counted in `left_out`. A bulk list is more

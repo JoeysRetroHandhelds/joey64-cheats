@@ -1,1 +1,1 @@
-{"source":"project64","license":"GPL-2.0-only","key":"AE82687A-9A3F388D-45","game":"F-1 Pole Position 64 (U) (M3)","cheats":[{"name":"Always First Place","codes":["810BA6DA 0000"]}]}
+{"source":"project64","license":"GPL-2.0-only","key":"AE82687A-9A3F388D-45","game":"F-1 Pole Position 64 (U) (M3)","cheats":[{"name":"Always First Place","codes":["810BA6DA 0000"]},{"name":"Sixty Frames","codes":["800B0147 0001"],"note":"Too fast.","flags":["60fps"]}]}
