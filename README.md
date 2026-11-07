@@ -34,12 +34,23 @@ Each source folder has a `SOURCE.md` with the commit it was copied from.
 `CRC1-CRC2`.
 
 **Placing libretro's files.** libretro's files are named after the game (GoodN64 or No-Intro
-names), so they're placed with two tables:
+names, sometimes the ROM's internal name), so they're placed with three tables:
 - `tools/mupen64plus.ini` (mupen64plus-core, GPL-2.0+) gives a GoodN64 name or MD5 its header checksums.
 - `tools/n64-names.tsv` (Joey64's box-art table, from libretro-database, CC BY-SA 4.0) gives a No-Intro name its MD5.
+- `tools/project64.rdb` (Project64's `Config/Project64.rdb`, GPL-2.0-only) gives its game names and
+  internal names their header checksums. Only read by `convert.py`; nothing of it goes in `dist/`.
 
-Files that match no game are listed in `tools/unplaced-libretro.txt`. These are mostly files
-named after the ROM's internal name, or after dumps the tables don't have.
+A file is placed by its exact name first. Otherwise by its name with the naming styles evened
+out (`(USA)` and `(U)`, `(Rev A)` and `(V1.1)`, `&` and `and`, no "The", spaces or punctuation),
+then by an internal name, then by a name a few letters off with the same country and version.
+Each of those guesses is checked against the other sources' codes for that game: the share of
+the file's code addresses they also poke. A guessed name is dropped when it shares none (the
+others have cheats there, at other places: another version); an internal or near name needs half
+its addresses shared; two games that fit as well leave the file unplaced. Files found by their
+exact name go first, so the game keeps that name and its cheats come first.
+
+Files that match no game are listed in `tools/unplaced-libretro.txt`. These are mostly betas,
+GameCube releases and hacks the tables don't have.
 
 **Cheats.** Each cheat has:
 - `name`: folders separated by `\`, for example `Infinite Items\2 player Mode\Player 1`.

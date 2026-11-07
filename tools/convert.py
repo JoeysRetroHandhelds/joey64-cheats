@@ -8,10 +8,12 @@ A key is the ROM header's checksums and country byte, "CRC1-CRC2-CC" (as Project
 "3E5055B6-2E92DA52-45"), or "CRC1-CRC2" when a source gives no country. Sources stay in their own
 files under their own licences; the app merges them on the device.
 
-Needs tools/mupen64plus.ini (game names -> header CRCs) and tools/n64-names.tsv (MD5 -> No-Intro
-name), to place libretro's files, which are named after the game, not keyed by checksum.
+Needs tools/mupen64plus.ini (game names -> header CRCs), tools/n64-names.tsv (MD5 -> No-Intro
+name) and tools/project64.rdb (Project64's game list: names and internal names -> header CRCs), to
+place libretro's files, which are named after the game, not keyed by checksum (README: Placing
+libretro's files).
 """
-import glob, json, os, re, sys
+import difflib, glob, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "sources")
@@ -185,6 +187,131 @@ def good_names():
     return by_name
 
 
+REGION = [
+    (r"\(japan, usa\)", "(ju)"), (r"\(usa, europe\)", "(ue)"), (r"\(usa\)", "(u)"), (r"\(europe\)", "(e)"),
+    (r"\(japan\)", "(j)"), (r"\(germany\)", "(g)"), (r"\(france\)", "(f)"), (r"\(italy\)", "(i)"),
+    (r"\(spain\)", "(s)"), (r"\(australia\)", "(a)"), (r"\(korea\)", "(k)"), (r"\(brazil\)", "(b)"),
+]
+
+
+def norm(name):
+    """A game name as it's compared: GoodN64's "(U) (V1.1)", No-Intro's "(USA) (Rev A)" and libretro's
+    "(U) v1.1" alike; no dump marks, language lists, "the", "and" / "&", spaces or punctuation."""
+    n = name.lower()
+    n = re.sub(r"\[[^\]]*\]", "", n)
+    for a, b in REGION:
+        n = re.sub(a, b, n)
+    n = re.sub(r"\((?:en|ja|fr|de|es|it|nl|pt|sv|no|da|fi)(?:,[a-z]{2})*\)", "", n)
+    n = re.sub(r"\(m\d\)", "", n)
+    n = re.sub(r"\((?:v ?1\.0|rev 0)\)", "", n)
+    n = re.sub(r"\(rev a\)", "(v1.1)", n)
+    n = re.sub(r"\(rev (\d)\)", lambda m: f"(v1.{m.group(1)})", n)
+    n = re.sub(r"\(v?(\d)\.(\d)\)", r"(v\1.\2)", n)
+    n = re.sub(r"\bv(\d\.\d)\b", r"(v\1)", n)
+    n = n.replace("(v1.0)", "")
+    n = n.replace("&", "and").replace(" _ ", " and ")
+    n = re.sub(r"\b(?:the|and)\b", "", n)
+    return re.sub(r"[^a-z0-9()]+", "", n)
+
+
+def rdb_entries():
+    """Project64.rdb's games: (key "CRC1-CRC2", Good Name, Internal Name)."""
+    out, cur = [], None
+    for line in open(os.path.join(ROOT, "tools", "project64.rdb"), encoding="utf-8", errors="replace"):
+        line = line.strip()
+        m = re.match(r"^\[([0-9A-F]{8})-([0-9A-F]{8})-C:[0-9A-F]{2}\]$", line, re.I)
+        if m:
+            cur = {"key": f"{m.group(1).upper()}-{m.group(2).upper()}"}
+            out.append(cur)
+        elif cur is not None and "=" in line:
+            k, v = line.split("=", 1)
+            if k == "Good Name": cur["good"] = v.strip()
+            if k == "Internal Name": cur["internal"] = re.sub(r"\s+", " ", v.upper()).strip()
+    return out
+
+
+def addresses(codes):
+    return {c.split()[0][2:].upper() for c in codes if len(c.split()[0]) == 8}
+
+
+def split_region(n):
+    m = re.search(r"\(([a-z]{1,2})\)", n)
+    return re.sub(r"\([^)]*\)", "", n), m.group(1) if m else "", re.findall(r"\(v\d+\)", n)
+
+
+def near_names(n, by_norm):
+    """Keys of the names closest to [n] with its country and version, when one is within a few
+    letters ("Mace - The Dark Ages" for "Mace - The Dark Age"). Plain names only: no "(Beta)"."""
+    base, reg, ver = split_region(n)
+    if not reg:
+        return set()
+    best, out = 0.0, set()
+    for k, keys in by_norm.items():
+        b2, r2, v2 = split_region(k)
+        if r2 != reg or v2 != ver or "(" in re.sub(r"\((?:[a-z]{1,2}|v\d+)\)", "", k):
+            continue
+        r = difflib.SequenceMatcher(None, base, b2).ratio()
+        if r > best:
+            best, out = r, set(keys)
+        elif r == best:
+            out |= keys
+    return out if best >= 0.85 else set()
+
+
+class Placer:
+    """
+    Finds the game a libretro file is for (README: Placing libretro's files): its name as one of
+    the tables gives it; else Project64's internal name; else a near name. Every guess is checked
+    against the other sources' codes for that game: the share of the file's code addresses they
+    also poke. A name match is kept unless it shares none (the others have cheats there, none at
+    the same places: another version). An internal name or near name needs half its addresses
+    shared. Two games that fit as well leave the file unplaced.
+    """
+
+    def __init__(self, names, found):
+        self.exact = names
+        self.by_norm, self.by_internal = {}, {}
+        for n, k in names.items():
+            self.by_norm.setdefault(norm(n), set()).add(k)
+        for e in rdb_entries():
+            if e.get("good"):
+                self.by_norm.setdefault(norm(e["good"]), set()).add(e["key"])
+            if e.get("internal"):
+                self.by_internal.setdefault(e["internal"], set()).add(e["key"])
+        self.others = {}
+        for src in ("project64", "rmg-custom", "fz-retroben"):
+            for k, g in found[src].items():
+                s = self.others.setdefault("-".join(k.split("-")[:2]), set())
+                for c in g["cheats"]:
+                    s |= addresses(c["codes"])
+
+    def place(self, title, cheats):
+        k = self.exact.get(title) or self.exact.get(re.sub(r"\s*\[[^\]]*\]", "", title).strip())
+        if k:
+            return k, True
+        n = norm(title)
+        if n in self.by_norm:
+            how, cands = "name", self.by_norm[n]
+        elif re.sub(r"\s+", " ", title.upper()).strip() in self.by_internal:
+            how, cands = "internal", self.by_internal[re.sub(r"\s+", " ", title.upper()).strip()]
+        else:
+            how, cands = "near", near_names(n, self.by_norm)
+        mine = set()
+        for c in cheats:
+            mine |= addresses(c["codes"])
+        scored = []
+        for k in cands:
+            o = self.others.get(k)
+            scored.append((len(mine & o) / len(mine) if mine and o else -1.0, k))
+        scored.sort(reverse=True)
+        if not scored or (len(scored) > 1 and scored[0][0] <= scored[1][0]):
+            return None, False
+        share, k = scored[0]
+        if share == 0 or (how != "name" and share < 0.5):
+            return None, False
+        return k, False
+
+
 def main():
     found = {s: {} for s in SOURCES}
     report = []
@@ -209,16 +336,20 @@ def main():
     for f in sorted(glob.glob(os.path.join(JOEY, "*.txt"))):
         found["joey64"].update(parse_mupen(open(f, encoding="utf-8", errors="replace").read()))
 
-    names = good_names()
+    placer = Placer(good_names(), found)
     unplaced = []
     left_out_total = 0
+    placed = []
     for f in sorted(glob.glob(os.path.join(SRC, "libretro", "*.cht"))):
         title = os.path.splitext(os.path.basename(f))[0]
-        k = names.get(title) or names.get(re.sub(r"\s*\[[^\]]*\]", "", title).strip())
-        if not k:
-            unplaced.append(title)
-            continue
         cheats = parse_libretro(open(f, encoding="utf-8", errors="replace").read())
+        k, exact = placer.place(title, cheats)
+        if k:
+            placed.append((not exact, title, k, cheats))
+        else:
+            unplaced.append(title)
+    # Files found by their exact name first: the game is called by that name, and its cheats come first.
+    for _, title, k, cheats in sorted(placed, key=lambda p: p[:2]):
         cheats, left = drop_bulk(cheats)
         left_out_total += left
         if not cheats:

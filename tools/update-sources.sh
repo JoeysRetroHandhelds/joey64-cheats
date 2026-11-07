@@ -28,6 +28,7 @@ cp "$w"/rmg/Data/Cheats/Custom/*.cht "$here/sources/rmg-custom/"
 cp "$w/lrdb/cht/Nintendo - Nintendo 64/"*.cht "$here/sources/libretro/"
 python "$here/tools/extract-retroben.py" "$w/fz/app/src/main/assets/mupen64plus_data/mupencheat.default" "$w/up/data/mupencheat.txt"
 cp "$w/up/data/mupen64plus.ini" "$here/tools/mupen64plus.ini"
+cp "$w/pj64/Config/Project64.rdb" "$here/tools/project64.rdb"
 stamp project64 pj64; stamp rmg-custom rmg; stamp libretro lrdb
 sed -i -E "s/\(commit [0-9a-f]{40}\) by/(commit $(git -C "$w/up" rev-parse HEAD)) by/" "$here/sources/fz-retroben/SOURCE.md"
 stamp fz-retroben fz
