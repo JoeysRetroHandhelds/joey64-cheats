@@ -26,7 +26,7 @@ Each source folder has a `SOURCE.md` with the commit it was copied from.
 
 `python tools/convert.py` writes `dist/`.
 
-- **`dist/index.json`:** `{"format": 1, "games": {key: {"game": name, "sources": {source: cheat count}}}}`.
+- **`dist/index.json`:** `{"format": 1, "games": {key: {"game": name, "sources": {source: cheat count}, "extras"?: ["widescreen", "60fps"]}}}`.
 - **`dist/<source>/<key>.json`:** `{"source", "license", "key", "game", "cheats": [...], "left_out"?}`.
 
 **Keys.** A key is the ROM header's two checksums and its country byte, `CRC1-CRC2-CC`
@@ -54,6 +54,7 @@ It can also have:
 
 - **`gs_button`:** needs the GameShark's own button (codes starting 88, 89, A8, A9, D8 to DB). Joey64 has none, so it hides these.
 - **`boot`:** a boot-time code (F0, F1, FF, EE). It works only from the game's start, so turning it on needs a reset.
+- **`widescreen`, `60fps`:** codes that make the picture wide or run the game at 60 fps, matched by name. "Always off" codes are left out: they turn a game's own widescreen off. These belong in their own menu spots, not Cheats (Joey, 2026-11-06), so Joey64 keeps them off the Cheats page. `index.json` lists them per game in `"extras"`.
 - **`needs_value`:** a `?` or `X` value with no options to pick from. Joey64 hides these for now.
 
 **Bulk lists.** libretro's bulk lists are left out and counted in `left_out`. A bulk list is more

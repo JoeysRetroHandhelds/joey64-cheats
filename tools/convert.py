@@ -22,6 +22,11 @@ CODE = re.compile(r"^([0-9A-Fa-f]{8}) ([0-9A-Fa-f?]{4})$")
 # Codes Joey64 can't run as they are (README: Flags).
 GS_BUTTON = ("88", "89", "A8", "A9", "D8", "D9", "DA", "DB")
 BOOT = ("F0", "F1", "FF", "EE")
+# Codes that belong in their own menu spots, not Cheats (Joey, 2026-11-06): the picture made
+# wide, and the game run at 60 fps. Matched by name; "always off" ones turn a game's own
+# widescreen off, and stay cheats.
+WIDESCREEN = re.compile(r"wide ?screen|anamorphic|16[-:x]9", re.I)
+SIXTY = re.compile(r"\b60 ?fps\b", re.I)
 # A libretro list with more than this many cheats of one name pattern ("Soldier #42") is a bulk
 # list: left out, and counted in the file's "left_out".
 BULK = 40
@@ -43,8 +48,13 @@ def key_of(raw):
     return f"{k}-{m.group(3).upper()}" if m.group(3) else k
 
 
-def flags(codes, options):
+def flags(codes, options, name=""):
     f = []
+    leaf = name.split("\\")[-1]
+    if WIDESCREEN.search(leaf) and "always off" not in leaf.lower():
+        f.append("widescreen")
+    if SIXTY.search(leaf):
+        f.append("60fps")
     heads = [c[:2].upper() for c in codes]
     if any(h in GS_BUTTON for h in heads):
         f.append("gs_button")
@@ -62,7 +72,7 @@ def cheat(name, codes, options=None, note=None):
         c["options"] = [[v.upper(), label.strip()] for v, label in options]
     if note:
         c["note"] = note.strip()
-    fl = flags(codes, options)
+    fl = flags(codes, options, name)
     if fl:
         c["flags"] = fl
     return c
@@ -237,6 +247,9 @@ def main():
                 json.dump(out, fh, ensure_ascii=False, separators=(",", ":"))
             e = index.setdefault(k, {"game": g["name"], "sources": {}})
             e["sources"][src] = len(g["cheats"])
+            extras = sorted({f for c in g["cheats"] for f in c.get("flags", []) if f in ("widescreen", "60fps")})
+            if extras:
+                e["extras"] = sorted(set(e.get("extras", [])) | set(extras))
             if not e["game"]:
                 e["game"] = g["name"]
         report.append(f"{src:12s} {len(games):5d} games {sum(len(g['cheats']) for g in games.values()):7d} cheats")
