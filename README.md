@@ -94,6 +94,10 @@ Checked against Project64's codes: it finds the same spots for Super Mario 64, M
 
 Nothing found here goes into `joey64/` until it's play-tested.
 
+## Box art
+
+`boxart/` holds Joey64's own covers for games ScreenScraper has none for, named `<rom md5>.png`, listed in `boxart/index.tsv` (`tools/boxart-index.py` writes it). The app reads them from the `release` branch like the cheat lists. See `boxart/README.md`.
+
 ## Weekly update
 
 `.github/workflows/weekly-update.yml` runs Mondays (and by hand): `tools/update-sources.sh` pulls the sources and writes their commits into each `SOURCE.md`, `tools/convert.py` rebuilds `dist/`, and when anything changed the result goes on the `weekly-update` branch with a pull request into `main`. `release`, the branch Joey64 downloads, moves only after review: `git branch -f release main && git push origin release`.

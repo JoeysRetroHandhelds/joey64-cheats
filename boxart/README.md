@@ -2,7 +2,7 @@
 
 Joey64's own covers for games ScreenScraper has none for (Joey 2026-11-07). Each file is named by the ROM's MD5 (the library's game key).
 These pictures are not under the repo's GPL: they are the games' own title art or fan-made covers, kept here only so Joey64 can show them.
-How the app downloads them is not built yet.
+Joey64 reads `boxart/index.tsv` from the `release` branch (at most once a week) and downloads `<md5>.png` for each library game listed there; ours win over ScreenScraper's. After adding or changing a picture, run `python tools/boxart-index.py` (it writes the picture's MD5, so devices fetch a changed one again) and add the game to the table below.
 
 | MD5 | Game | Source |
 | --- | --- | --- |
