@@ -1,4 +1,6 @@
-# joey64-cheats
+# joey64-data
+
+Joey64's downloadable data: cheat lists now, and box art and the like as they come (renamed from joey64-cheats 2026-11-07).
 
 The cheat lists Joey64 downloads. The app ships with no cheats. When you open Cheats for a game,
 it reads `dist/index.json` from this repo's `release` branch, fetches that game's files, and
