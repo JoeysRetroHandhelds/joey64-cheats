@@ -1,0 +1,332 @@
+<title>Joey64 game compatibility</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap">
+<style>
+/* Layout: a navy band with the J64 mark, then filters, the status counts and one row per game (cards on phones). */
+:root {
+  --bg: #F4F5F9; --card: #FFFFFF; --card2: #F7F8FB; --open: #FAFBFD;
+  --line: #E2E5EE; --line2: #ECEEF4;
+  --fg: #1B2340; --fg2: #2E3550; --muted: #545B76; --label: #4A5170;
+  --band: #1B2340; --band-fg: #FFFFFF; --band-sub: #C9CEE0; --brand: #F9D036; --brand-fg: #1B2340;
+  --input: #FBFBFD; --input-line: #C2C7D8;
+  --chip: #FFFFFF; --chip-line: #C2C7D8; --chip-on: #1B2340; --chip-on-fg: #FFFFFF;
+  --link: #1F4FA8;
+  --bar: #E5E8F0; --bar-on: #2F6FD6; --bar-low: #B9BFD0;
+  --runs-bg: #D9F0E3; --runs-fg: #1B5A37; --starts-bg: #E3EAF8; --starts-fg: #23427A;
+  --broken-bg: #FDE3CF; --broken-fg: #8A3A00; --notyet-bg: #ECEDF2; --notyet-fg: #454A5C;
+  --font: Rubik, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0F1424; --card: #181E33; --card2: #141A2C; --open: #141A2C;
+  --line: #2A314A; --line2: #232A41;
+  --fg: #E8EBF5; --fg2: #CDD2E3; --muted: #A3AAC4; --label: #AAB1CA;
+  --band: #0A0E1A; --band-fg: #FFFFFF; --band-sub: #B9BFD6; --brand: #F9D036; --brand-fg: #1B2340;
+  --input: #12182A; --input-line: #3A4262;
+  --chip: #181E33; --chip-line: #3A4262; --chip-on: #E8EBF5; --chip-on-fg: #0F1424;
+  --link: #8DB4FF;
+  --bar: #2A314A; --bar-on: #6C9BEB; --bar-low: #4C5576;
+  --runs-bg: #183F2B; --runs-fg: #C8EED8; --starts-bg: #1E3056; --starts-fg: #CFDDFA;
+  --broken-bg: #552A0D; --broken-fg: #FFD8BB; --notyet-bg: #2A3045; --notyet-fg: #D2D6E2;
+  color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #0F1424; --card: #181E33; --card2: #141A2C; --open: #141A2C;
+  --line: #2A314A; --line2: #232A41;
+  --fg: #E8EBF5; --fg2: #CDD2E3; --muted: #A3AAC4; --label: #AAB1CA;
+  --band: #0A0E1A; --band-fg: #FFFFFF; --band-sub: #B9BFD6; --brand: #F9D036; --brand-fg: #1B2340;
+  --input: #12182A; --input-line: #3A4262;
+  --chip: #181E33; --chip-line: #3A4262; --chip-on: #E8EBF5; --chip-on-fg: #0F1424;
+  --link: #8DB4FF;
+  --bar: #2A314A; --bar-on: #6C9BEB; --bar-low: #4C5576;
+  --runs-bg: #183F2B; --runs-fg: #C8EED8; --starts-bg: #1E3056; --starts-fg: #CFDDFA;
+  --broken-bg: #552A0D; --broken-fg: #FFD8BB; --notyet-bg: #2A3045; --notyet-fg: #D2D6E2;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 15px; }
+a { color: var(--link); }
+button, input, select { font-family: var(--font); }
+:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.band { background: var(--band); color: var(--band-fg); }
+.band .wrap { padding-block: 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px 18px; }
+.mark { width: 48px; height: 48px; border-radius: 12px; background: var(--brand); color: var(--brand-fg); display: flex; align-items: center; justify-content: center; font-weight: 800; font-style: italic; font-size: 19px; letter-spacing: -0.5px; flex: none; }
+.head { flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.head h1 { margin: 0; font-size: 26px; font-weight: 700; text-wrap: balance; }
+.head p { margin: 0; font-size: 14px; color: var(--band-sub); }
+.theme { display: flex; gap: 4px; background: rgba(255,255,255,0.08); border-radius: 999px; padding: 4px; }
+.theme button { min-height: 36px; padding: 0 12px; border: 0; border-radius: 999px; background: transparent; color: var(--band-sub); font-size: 13px; font-weight: 500; cursor: pointer; }
+.theme button[aria-pressed="true"] { background: var(--brand); color: var(--brand-fg); }
+main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap: 18px; }
+.panel { background: var(--card); border-radius: 14px; box-shadow: 0 1px 2px rgba(15,20,36,0.08); }
+.filters { padding: 18px; display: flex; flex-direction: column; gap: 14px; }
+.searchrow { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; }
+.field { display: flex; flex-direction: column; gap: 6px; flex: 1 1 220px; min-width: 0; }
+.field.narrow { flex: 0 1 180px; }
+.field label, .grp > span { font-size: 13px; font-weight: 600; color: var(--label); }
+.field input, .field select { height: 44px; border: 1px solid var(--input-line); border-radius: 10px; padding: 0 12px; font-size: 16px; color: var(--fg); background: var(--input); min-width: 0; }
+.grp { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.grp > span { width: 120px; }
+.chip { min-height: 40px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--chip-line); background: var(--chip); color: var(--fg); font-size: 14px; font-weight: 500; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--chip-on); border-color: var(--chip-on); color: var(--chip-on-fg); }
+.chip .n { font-variant-numeric: tabular-nums; opacity: 0.75; margin-left: 4px; }
+.counts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.count { padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; }
+.count b { font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.pill { align-self: flex-start; display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; white-space: nowrap; }
+.st-runs { background: var(--runs-bg); color: var(--runs-fg); }
+.st-starts { background: var(--starts-bg); color: var(--starts-fg); }
+.st-broken { background: var(--broken-bg); color: var(--broken-fg); }
+.st-notyet { background: var(--notyet-bg); color: var(--notyet-fg); }
+.listhead { padding: 14px 18px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 12px; align-items: baseline; }
+.listhead h2 { margin: 0; font-size: 18px; font-weight: 600; }
+.listhead span { font-size: 13px; color: var(--muted); }
+.cols, .row { display: grid; grid-template-columns: minmax(0, 2.6fr) 118px 170px minmax(0, 1.3fr) 92px 64px; gap: 12px; }
+.cols { padding: 10px 18px; background: var(--card2); border-bottom: 1px solid var(--line); font-size: 12px; font-weight: 600; color: var(--label); text-transform: uppercase; letter-spacing: 0.05em; }
+.item { border-bottom: 1px solid var(--line2); }
+.row { width: 100%; padding: 13px 18px; border: 0; background: var(--card); color: var(--fg); text-align: left; cursor: pointer; align-items: start; font-size: 14px; }
+.item.open .row, .item.open .detail { background: var(--open); }
+.row:hover { background: var(--open); }
+.t { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.t strong { font-size: 15px; font-weight: 600; overflow-wrap: anywhere; }
+.t small, .sp small, .on { font-size: 13px; color: var(--muted); }
+.sp { display: flex; flex-direction: column; gap: 5px; font-variant-numeric: tabular-nums; }
+.bar { height: 6px; border-radius: 3px; background: var(--bar); overflow: hidden; }
+.bar i { display: block; height: 100%; border-radius: 3px; background: var(--bar-on); }
+.bar i.low { background: var(--bar-low); }
+.lbl { display: none; }
+.detail { padding: 2px 18px 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; }
+.box { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.box h3 { margin: 0; font-size: 12px; font-weight: 600; color: var(--label); text-transform: uppercase; letter-spacing: 0.05em; }
+.box p { margin: 0; font-size: 14px; line-height: 1.5; color: var(--fg2); overflow-wrap: anywhere; }
+.more { padding: 16px 18px; display: flex; justify-content: center; }
+.empty { margin: 0; padding: 28px 18px; color: var(--muted); }
+.about { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.about .panel { padding: 16px; display: flex; flex-direction: column; gap: 6px; }
+.about h2 { margin: 0; font-size: 15px; font-weight: 600; }
+.about p { margin: 0; font-size: 14px; line-height: 1.55; color: var(--fg2); max-width: 65ch; }
+@media (max-width: 760px) {
+  .cols { display: none; }
+  .row { grid-template-columns: minmax(0, 1fr) auto; gap: 8px 12px; }
+  .row .t { grid-column: 1 / -1; }
+  .lbl { display: inline; color: var(--muted); }
+  .grp > span { width: 100%; }
+}
+@media (prefers-reduced-motion: no-preference) { .row { transition: background 0.12s; } }
+</style>
+
+<header class="band">
+  <div class="wrap">
+    <div class="mark" aria-hidden="true">J64</div>
+    <div class="head">
+      <h1>Game compatibility</h1>
+      <p id="sub">Loading the results…</p>
+    </div>
+    <div class="theme" role="group" aria-label="Colour theme">
+      <button type="button" data-theme-pick="auto" aria-pressed="true">Auto</button>
+      <button type="button" data-theme-pick="light" aria-pressed="false">Light</button>
+      <button type="button" data-theme-pick="dark" aria-pressed="false">Dark</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel filters" aria-label="Search and filters">
+    <div class="searchrow">
+      <div class="field">
+        <label for="q">Search</label>
+        <input id="q" type="search" placeholder="Title, region or version" autocomplete="off">
+      </div>
+      <div class="field narrow">
+        <label for="region">Region</label>
+        <select id="region"><option value="">All regions</option></select>
+      </div>
+      <div class="field narrow">
+        <label for="sort">Sort</label>
+        <select id="sort">
+          <option value="az">A to Z</option>
+          <option value="fast">Fastest first</option>
+          <option value="slow">Slowest first</option>
+        </select>
+      </div>
+    </div>
+    <div class="grp" id="g-status"><span>Status</span></div>
+    <div class="grp" id="g-gpu"><span>Tested on</span></div>
+    <div class="grp" id="g-has"><span>Has</span></div>
+    <div class="grp" id="g-type"><span>Type</span></div>
+  </section>
+
+  <section class="counts" id="counts" aria-label="Status counts"></section>
+
+  <section class="panel" aria-labelledby="shown">
+    <div class="listhead">
+      <h2 id="shown">Games</h2>
+      <span>Select a game for how it was checked, its settings and its paks</span>
+    </div>
+    <div class="cols" aria-hidden="true"><span>Game</span><span>Status</span><span>Measured speed</span><span>Tested on</span><span>Widescreen</span><span>60 fps</span></div>
+    <div id="list"></div>
+    <div class="more"><button type="button" class="chip" id="more" hidden>Show 100 more</button></div>
+  </section>
+
+  <section class="about" id="how" aria-label="How we test">
+    <div class="panel">
+      <h2>What the statuses mean</h2>
+      <p><strong>Runs</strong>: it passed the scripted in-game check (button presses, frames compared with reference images), or a 3D scene was seen. <strong>Starts</strong>: it draws, but no 3D scene was seen yet. <strong>Broken</strong>: it crashes, hangs or draws wrong; the game's details say what we know. <strong>Not checked yet</strong>: the run hasn't reached it. None of these means played start to finish.</p>
+    </div>
+    <div class="panel">
+      <h2>About the speeds</h2>
+      <p>Uncapped frames per second in each game's first 150 seconds with no buttons pressed, on the device named. Over 60 (50 for European copies) is full speed there. Gameplay can be heavier than intros.</p>
+    </div>
+    <div class="panel">
+      <h2>Test devices</h2>
+      <p id="devs">Adreno 8xx: Odin 3 Portal. Adreno 7xx: Odin 2 Portal, Retroid Pocket Duo. Mali: Retroid Pocket Flip. Each game was run on one of them, the 82 games of the in-game check on all four. No game files are hosted here.</p>
+    </div>
+  </section>
+</main>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  function setTheme(t) {
+    if (t === 'auto') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', t);
+    document.querySelectorAll('[data-theme-pick]').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.themePick === t ? 'true' : 'false'); });
+    try { localStorage.setItem('j64-theme', t); } catch (e) {}
+  }
+  var saved = 'auto';
+  try { saved = localStorage.getItem('j64-theme') || 'auto'; } catch (e) {}
+  setTheme(saved);
+  document.querySelectorAll('[data-theme-pick]').forEach(function (b) { b.addEventListener('click', function () { setTheme(b.dataset.themePick); }); });
+
+  var STATUS = { runs: 'Runs', starts: 'Starts', broken: 'Broken', notyet: 'Not checked yet' };
+  var TYPES = ['Retail', 'Beta', 'Demo', 'Homebrew', 'Hack', 'Cheat cart', 'Other'];
+  var HAS = [['ws', 'Widescreen'], ['f60', '60 fps code'], ['rumble', 'Rumble Pak'], ['tpak', 'Transfer Pak'], ['exp', 'Needs Expansion Pak']];
+  var S = { q: '', region: '', sort: 'az', status: '', gpu: '', type: '', has: {}, open: '', limit: 100 };
+  var D = null;
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function kindOf(g) { return TYPES.indexOf(g.type) >= 0 ? g.type : 'Other'; }
+  function fam(g) { return (g.on || []).map(function (d) { return D.devices[d].family; }); }
+  function match(g) {
+    if (S.status && g.status !== S.status) return false;
+    if (S.gpu && fam(g).indexOf(S.gpu) < 0) return false;
+    if (S.type && kindOf(g) !== S.type) return false;
+    if (S.region && g.region !== S.region) return false;
+    if (S.has.ws && !g.ws) return false;
+    if (S.has.f60 && !g.f60) return false;
+    if (S.has.rumble && g.paks.indexOf('Rumble Pak') < 0) return false;
+    if (S.has.tpak && g.paks.indexOf('Transfer Pak') < 0) return false;
+    if (S.has.exp && !g.exp) return false;
+    if (S.q) { var h = (g.title + ' ' + g.name).toLowerCase(); if (h.indexOf(S.q) < 0) return false; }
+    return true;
+  }
+  function chips(id, opts, cur, onPick) {
+    var el = document.getElementById(id);
+    el.querySelectorAll('button').forEach(function (b) { b.remove(); });
+    opts.forEach(function (o) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'chip';
+      b.setAttribute('aria-pressed', o.on ? 'true' : 'false');
+      b.innerHTML = esc(o.label) + (o.n != null ? '<span class="n">' + o.n + '</span>' : '');
+      b.addEventListener('click', function () { onPick(o.v); });
+      el.appendChild(b);
+    });
+  }
+  function sub(g) {
+    var bits = [g.region || 'No region'];
+    (g.tags || []).forEach(function (t) { bits.push(t); });
+    if (g.type !== 'Retail' && bits.indexOf(g.type) < 0) bits.push(g.type);
+    if (g.bad) bits.push('Bad dump');
+    return bits.join(' · ');
+  }
+  function speed(g) {
+    if (!g.fps) return { v: g.status === 'runs' && g.on.length > 1 ? 'Checked in-game' : '—', s: g.status === 'notyet' ? '' : (g.on.length > 1 ? 'on ' + g.on.length + ' devices' : ''), w: 0 };
+    var d = D.devices[g.fpsDev];
+    return { v: g.fps + ' fps', s: d.name + ' · ' + d.gpu, w: Math.min(100, Math.round(g.fps / 6)), low: g.fps < 60 };
+  }
+  function onText(g) {
+    if (!g.on.length) return '—';
+    if (g.on.length === 4) return 'All 4 test devices';
+    return g.on.map(function (d) { return D.devices[d].name; }).join(', ');
+  }
+  function wsText(g) { return g.ws === 'own' ? 'Own 16:9 mode' : g.ws === 'code' ? 'Code' : '—'; }
+  function box(h, p) { return '<div class="box"><h3>' + esc(h) + '</h3><p>' + p + '</p></div>'; }
+  function detail(g) {
+    var out = [];
+    var how = esc(g.ev || 'Not run yet.');
+    out.push(box('How it was checked', how));
+    if (g.note) out.push(box('Notes', esc(g.note)));
+    if (g.set && g.set.length) out.push(box('What Joey64 sets for it', g.set.map(esc).join('<br>')));
+    if (g.on.length) out.push(box('Tested on', g.on.map(function (d) { var x = D.devices[d]; return esc(x.name + ' (' + x.gpu + ')'); }).join('<br>')));
+    var gear = [];
+    if (g.players) gear.push(g.players + (g.players === '1' ? ' player' : ' players'));
+    if (g.save && g.save !== 'None') gear.push('Saves to ' + g.save); else if (g.save === 'None') gear.push('No save on the cart');
+    if (g.paks.length) gear.push(g.paks.join(', '));
+    if (g.exp) gear.push('Needs the Expansion Pak (always on in Joey64)');
+    if (gear.length) out.push(box('Players, saves and paks', esc(gear.join(' · '))));
+    var extras = [];
+    if (g.ws === 'own') extras.push('Has its own 16:9 mode' + (g.wsWhere ? ' (' + g.wsWhere + ')' : '') + '; Widescreen “When a game has one” uses it.');
+    if (g.ws === 'code') extras.push('A widescreen code is in the cheat lists.');
+    if (g.f60) extras.push('A 60 fps code is in the cheat lists.');
+    if (extras.length) out.push(box('Widescreen and 60 fps', esc(extras.join(' '))));
+    out.push(box('Copy', esc(g.name) + (g.langs ? '<br>Languages: ' + esc(g.langs) : '')));
+    return out.join('');
+  }
+  function render() {
+    var list = D.games.filter(match);
+    if (S.sort !== 'az') {
+      var dir = S.sort === 'fast' ? -1 : 1;
+      list = list.slice().sort(function (a, b) { var x = a.fps || 0, y = b.fps || 0; if (!x && !y) return 0; if (!x) return 1; if (!y) return -1; return dir * (x - y); });
+    }
+    var counts = { runs: 0, starts: 0, broken: 0, notyet: 0 };
+    D.games.filter(function (g) { var s = S.status; S.status = ''; var m = match(g); S.status = s; return m; }).forEach(function (g) { counts[g.status]++; });
+    chips('g-status', [{ v: '', label: 'All', on: !S.status }].concat(Object.keys(STATUS).map(function (k) { return { v: k, label: STATUS[k], n: counts[k], on: S.status === k }; })), S.status, function (v) { S.status = v; S.limit = 100; render(); });
+    chips('g-gpu', [{ v: '', label: 'Any', on: !S.gpu }].concat(['Adreno 8xx', 'Adreno 7xx', 'Mali'].map(function (k) { return { v: k, label: k, on: S.gpu === k }; })), S.gpu, function (v) { S.gpu = v; S.limit = 100; render(); });
+    chips('g-has', HAS.map(function (h) { return { v: h[0], label: h[1], on: !!S.has[h[0]] }; }), null, function (v) { S.has[v] = !S.has[v]; S.limit = 100; render(); });
+    chips('g-type', [{ v: '', label: 'All', on: !S.type }].concat(TYPES.map(function (k) { return { v: k, label: k, on: S.type === k }; })), S.type, function (v) { S.type = v; S.limit = 100; render(); });
+    var all = D.counts;
+    document.getElementById('counts').innerHTML =
+      '<div class="panel count"><b>' + D.games.length + '</b><span class="on">games and versions</span></div>' +
+      Object.keys(STATUS).map(function (k) { return '<div class="panel count"><b>' + all[k] + '</b><span class="pill st-' + k + '">' + STATUS[k] + '</span></div>'; }).join('');
+    document.getElementById('shown').textContent = 'Showing ' + Math.min(list.length, S.limit) + ' of ' + list.length + (list.length === D.games.length ? ' games' : ' matching games');
+    var html = list.slice(0, S.limit).map(function (g, i) {
+      var id = 'g' + D.games.indexOf(g), open = S.open === id, sp = speed(g);
+      return '<div class="item' + (open ? ' open' : '') + '">' +
+        '<button type="button" class="row" data-id="' + id + '" aria-expanded="' + open + '" aria-controls="' + id + '-d">' +
+        '<span class="t"><strong>' + esc(g.title) + '</strong><small>' + esc(sub(g)) + '</small></span>' +
+        '<span><span class="pill st-' + g.status + '">' + STATUS[g.status] + '</span></span>' +
+        '<span class="sp"><span><span class="lbl">Speed: </span>' + esc(sp.v) + '</span>' + (sp.w ? '<span class="bar"><i class="' + (sp.low ? 'low' : '') + '" style="width:' + sp.w + '%"></i></span>' : '') + '<small>' + esc(sp.s) + '</small></span>' +
+        '<span class="on"><span class="lbl">Tested on: </span>' + esc(onText(g)) + '</span>' +
+        '<span class="on"><span class="lbl">Widescreen: </span>' + esc(wsText(g)) + '</span>' +
+        '<span class="on"><span class="lbl">60 fps: </span>' + (g.f60 ? 'Code' : '—') + '</span>' +
+        '</button>' + (open ? '<div class="detail" id="' + id + '-d">' + detail(g) + '</div>' : '') + '</div>';
+    }).join('');
+    document.getElementById('list').innerHTML = html || '<p class="empty">No game matches these filters. Clear a filter or the search.</p>';
+    var more = document.getElementById('more');
+    more.hidden = list.length <= S.limit;
+  }
+  document.getElementById('list').addEventListener('click', function (e) {
+    var b = e.target.closest('.row'); if (!b) return;
+    S.open = S.open === b.dataset.id ? '' : b.dataset.id; render();
+    var again = document.querySelector('.row[data-id="' + b.dataset.id + '"]'); if (again) again.focus();
+  });
+  document.getElementById('more').addEventListener('click', function () { S.limit += 100; render(); });
+  document.getElementById('q').addEventListener('input', function (e) { S.q = e.target.value.trim().toLowerCase(); S.limit = 100; render(); });
+  document.getElementById('region').addEventListener('change', function (e) { S.region = e.target.value; S.limit = 100; render(); });
+  document.getElementById('sort').addEventListener('change', function (e) { S.sort = e.target.value; render(); });
+
+  fetch('games.json').then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (d) {
+    D = d;
+    var regions = {};
+    d.games.forEach(function (g) { if (g.region) regions[g.region] = (regions[g.region] || 0) + 1; });
+    var sel = document.getElementById('region');
+    Object.keys(regions).sort(function (a, b) { return regions[b] - regions[a]; }).forEach(function (r) {
+      var o = document.createElement('option'); o.value = r; o.textContent = r + ' (' + regions[r] + ')'; sel.appendChild(o);
+    });
+    var done = d.games.length - d.counts.notyet;
+    document.getElementById('sub').textContent = 'Joey64 test build' + (d.build ? ' (' + d.build + ')' : '') + ' · results of ' + d.generated + ' · ' + done + ' of ' + d.games.length + ' checked so far';
+    render();
+  }).catch(function (e) {
+    document.getElementById('sub').textContent = 'The results could not be loaded (' + e.message + ').';
+    document.getElementById('list').innerHTML = '<p class="empty">games.json did not load. It sits next to this page; open the page from the same folder.</p>';
+  });
+})();
+</script>

@@ -1,0 +1,29 @@
+# compat/notes.tsv: hand-written status and notes for the compatibility page, by No-Intro name. Tab-separated:
+# name, status (runs, starts, broken, notyet; empty keeps what the results say), note. tools/compat-page.py reads it.
+Blast Corps (USA)	runs	Froze on the Rareware logo about 2 s in on Mali with asynchronous drawing. Fixed 2026-11-11: all copies now use synchronous drawing. Checked on the Retroid Pocket Flip (116 fps uncapped) and the Retroid Pocket Duo (283 fps).
+3D Model RGB Test Program (USA) (Test Program)		Closed about 17 s in: an audio DMA bug in the core, fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Bug Game (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)		Closed about 17 s in: an audio DMA bug in the core, fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Evil Australians (World) (Demo) (Aftermarket) (Unl)		Closed about 17 s in: an audio DMA bug in the core, fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Featherlight (World) (v1.1) (N64brew Game Jam 2021) (Aftermarket) (Unl)		Closed about 17 s in, probably the audio DMA bug fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Fission Failure 64 (World) (N64brew Game Jam 2021) (Aftermarket) (Unl)		Closed about 17 s in: an audio DMA bug in the core, fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Flappy Bird (World) (v1.0) (Aftermarket) (Unl)		Closed about 17 s in: an audio DMA bug in the core, fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Flappy Bird (World) (v1.1) (Aftermarket) (Unl)		Closed about 17 s in: an audio DMA bug in the core, fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Flappy Bird (World) (v1.2) (Aftermarket) (Unl)		Closed about 17 s in: an audio DMA bug in the core, fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Flappy Bird (World) (v1.3) (Aftermarket) (Unl)		Closed about 17 s in: an audio DMA bug in the core, fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Flappy Bird (World) (v1.4) (Aftermarket) (Unl)		Closed about 17 s in: an audio DMA bug in the core, fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Action Replay Pro 64 (Europe) (v3.0) (Unl)		Closes at once: its code runs from RSP memory, which the recompiler doesn't compile. A test on the interpreter is queued.
+Action Replay Pro 64 (Europe) (v3.3) (Unl)		Closes at once: its code runs from RSP memory, which the recompiler doesn't compile. A test on the interpreter is queued.
+GameBooster 64 (Europe) (v1.1) (Unl)		Closes at once: its code runs from RSP memory, which the recompiler doesn't compile. A test on the interpreter is queued.
+GameBooster 64 (USA) (v1.1) (Unl)		Closes at once: its code runs from RSP memory, which the recompiler doesn't compile. A test on the interpreter is queued.
+GameShark Pro (USA) (v3.3) (Unl)		Closes at once: its code runs from RSP memory, which the recompiler doesn't compile. A test on the interpreter is queued.
+GameShark Pro (USA) (v2.0) (Unl)		No picture: it hangs before its first frame. A test on the interpreter is queued.
+Doom 64 (USA) (Beta) (1996-12-10)		No picture: it hangs before its first frame. A test on the interpreter is queued.
+Derby Stallion 64 (Japan) (Beta) [b]		A bad dump (marked [b]). It hangs before its first frame.
+Glover (USA) (1998-07-16) (Beta) [b]		A bad dump (marked [b]). It hangs before its first frame.
+Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (GameCube)		It drew at full speed, then the app closed 21 s in. The crash is being looked at; the European GameCube debug copy runs.
+Mario Party 2 (Japan) (Wii Virtual Console)		No picture: Wii Virtual Console copies hang before their first frame (four so far). Tests on the interpreter and against the VC header are queued.
+Mario Tennis (Europe) (Wii Virtual Console)		No picture: Wii Virtual Console copies hang before their first frame (four so far). Tests on the interpreter and against the VC header are queued.
+Mario Tennis (USA) (Wii Virtual Console)		No picture: Wii Virtual Console copies hang before their first frame (four so far). Tests on the interpreter and against the VC header are queued.
+Mario Tennis 64 (Japan) (Wii Virtual Console)		No picture: Wii Virtual Console copies hang before their first frame (four so far). Tests on the interpreter and against the VC header are queued.
+Nacho 64 (World) (Auto Demo) (Unl)		Closed 18 s in, maybe the audio DMA bug fixed in core rel1 (2026-11-11). Rerun on the new build is queued.
+Nintendo 64 Modem (Japan) (Add-on)		Not a game: the modem cartridge for the 64DD online service. The app closed 16 s in; a cart like this should show an error, not close. The fix is queued.
