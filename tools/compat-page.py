@@ -30,6 +30,8 @@ COMPAT_RUNS = [
     ('o3p', 'o3p-audit3-compat'), ('flip', 'flip-lists2-compat'), ('flip', 'flip-rel1-44'),
     ('duo', 'duo-rel1-compat'), ('duo', 'duo-rel2-compat'),
     ('o2p', 'odin2p-cf30-compat'), ('o2p', 'odin2p-cf30-rerun'),
+    # 2026-11-12: main 3a5caf0 (core rel2 247364e)
+    ('flip', 'flip-golf-compat'), ('duo', 'duo-golf-compat'), ('o2p', 'o2p-golf-compat'),
 ]
 REGIONS = ['USA', 'Europe', 'Japan', 'World', 'Germany', 'France', 'Spain', 'Italy', 'Australia', 'Brazil', 'Korea',
            'China', 'Netherlands', 'Sweden', 'Canada', 'Asia', 'UK', 'Scandinavia']
