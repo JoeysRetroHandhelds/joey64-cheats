@@ -10,3 +10,7 @@ Joey64 reads `boxart/index.tsv` from the `release` branch (at most once a week) 
 | 605c74e34d0302707723b191ea30ae44 | Super Mario 64 - Peach's Fury | fan-made N64-style box, 385x281, from Joey (small: a bigger copy would match the 640 px covers) |
 | 9feee5da895fb2e115bb15d1c4a9f906 | Super Mario Land 64 v1.1 (its ROM header says SUPER MARIO 64 LAND) | fan-made N64-style box, 385x281, from Joey (small: a bigger copy would match the 640 px covers) |
 | 7906333f41184f6cfda9d364a6f8d565 | Shotgun Mario 64 (v1.0.4) | fan-made N64-style box, 412x300, from Joey |
+| 33273fb052fa8ea94410352a6ce52f8f | Legend of Zelda, The - Sands of Time | fan-made N64-style box, 1280x934 from a Reddit post (i.redd.it/qpf8vk3vtole1.jpeg), shrunk to 640 wide; Joey picked it 2026-11-12 |
+| c65d67dd5b61ebc1f58d7202dde78bbe | Sealed Palace | fan-made N64-style box, 960x670 from the LaunchBox Games Database (game 367507, Box - Front (World)), shrunk to 640 wide; Joey picked it 2026-11-12 |
+| 688d9e956cd406fade6cbe21bc033392 | The Legend of Zelda - Master of Time | fan-made N64-style box, 1000x693 from the LaunchBox Games Database (game 167762, Box - Front (North America)), shrunk to 640 wide; Joey picked it 2026-11-12 |
+| b87b4ff48d645782ff1e6f568c7d3b61 | The Legend of Zelda - The Missing Link | fan-made N64-style box, 1000x693 from the LaunchBox Games Database (game 135179, Box - Front (North America)), shrunk to 640 wide; Joey picked it 2026-11-12 |
