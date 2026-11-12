@@ -1,10 +1,8 @@
 # joey64-data
 
-Joey64's downloadable data: cheat lists now, and box art and the like as they come (renamed from joey64-cheats 2026-11-07).
-
-The cheat lists Joey64 downloads. The app ships with no cheats. When you open Cheats for a game,
-it reads `dist/index.json` from this repo's `release` branch, fetches that game's files, and
-keeps them.
+Data that [Joey64](https://github.com/JoeysRetroHandhelds/joey64) downloads: cheat lists, its own box art for games
+ScreenScraper has none for, and the game compatibility page. The app ships with none of it. When you open Cheats
+for a game, it reads `dist/index.json` from this repo's `release` branch, fetches that game's files and keeps them.
 
 ## Sources
 
@@ -82,21 +80,22 @@ spawn codes.
 Review the change on `main`, then move the `release` branch to it. Nothing goes live
 unreviewed. The app reads `release` and checks it again at most once a week.
 
-## Widescreen finder (trial, 2026-11-06)
+## Widescreen finder
 
-`tools/widescreen-finder.py <state.raw>` reads RDRAM from a mupen64plus save state and lists places a 4:3 aspect lives, each with GameShark codes for 16:9: guPerspective call sites (the aspect argument, a3), floats near 4:3 that code loads, and instructions building them. `tools/widescreen-sheet.py` puts screenshots of each try side by side.
-
-Checked against Project64's codes: it finds the same spots for Super Mario 64, Mario Kart 64 and Banjo-Kazooie. Tried on five games with no code, from Joey's states on the Thor:
-
-- GoldenEye 007 (U): works, `81003D84 3C07` + `81003D86 3FE3` (more on both sides). Play-tested on the Thor 2026-11-07 in one room of Joey's save, shown at 16:9: shapes right, nothing missing at the edges, 60 fps; the HUD is drawn wider, as with any such code. In `joey64/widescreen.txt`. Other levels not tried.
-- Conker's Bad Fur Day (U), Perfect Dark (U) (Rev 1), Cruis'n USA (U): no change from any candidate. They build the projection their own way, so these need work by hand.
-- Yoshi's Story (U): the guPerspective calls changed nothing visible; not found.
-
-Nothing found here goes into `joey64/` until it's play-tested.
+`tools/widescreen-finder.py <state.raw>` reads RDRAM from a mupen64plus save state and lists places a 4:3 aspect
+lives, each with GameShark codes for 16:9: guPerspective call sites (the aspect argument, a3), floats near 4:3 that
+code loads, and instructions building them. `tools/widescreen-sheet.py` puts screenshots of each try side by side.
+A code it finds goes into `joey64/` only after it has been play-tested.
 
 ## Box art
 
 `boxart/` holds Joey64's own covers for games ScreenScraper has none for, named `<rom md5>.png`, listed in `boxart/index.tsv` (`tools/boxart-index.py` writes it). The app reads them from the `release` branch like the cheat lists. See `boxart/README.md`.
+
+## Compatibility page
+
+`compat/` is how each game ran in Joey64's test runs on four handhelds (Adreno 8xx, 7xx and Mali):
+`tools/compat-page.py` builds `games.json` and `index.html` from the runs' results; `notes.tsv` holds hand-written
+status and notes by No-Intro name. Statuses: Runs, Starts, Broken, Not a game, Not checked yet.
 
 ## Weekly update
 
