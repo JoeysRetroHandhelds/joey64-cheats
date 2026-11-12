@@ -13,7 +13,8 @@ Kept in this repo: compat/notes.tsv (hand-written status and notes, by No-Intro 
 (players, save type, paks by MD5), dist/ and joey64/widescreen.txt (widescreen and 60 fps codes).
 
 Statuses: runs (passed the scripted in-game check, or a 3D scene was seen), starts (draws, no 3D seen yet),
-broken (crashes, hangs or draws wrong), notyet (not run yet). notes.tsv overrides any of them.
+broken (crashes, hangs or draws wrong), notyet (not run yet), notgame (in the set but not a game: BIOS dumps, the
+64DD modem; only from notes.tsv, Joey 2026-11-12). notes.tsv overrides any of them.
 """
 import argparse, glob, hashlib, json, os, re, zipfile, datetime
 
@@ -288,7 +289,7 @@ def main():
 
     games.sort(key=lambda g: (re.sub(r'^the ', '', g['title'].lower()), g['region'], g['name']))
     out = {'generated': datetime.date.today().isoformat(), 'build': a.build, 'devices': DEVICES,
-           'counts': {s: sum(1 for g in games if g['status'] == s) for s in ('runs', 'starts', 'broken', 'notyet')},
+           'counts': {s: sum(1 for g in games if g['status'] == s) for s in ('runs', 'starts', 'broken', 'notyet', 'notgame')},
            'games': games}
     os.makedirs(os.path.join(HERE, 'compat'), exist_ok=True)
     with open(os.path.join(HERE, 'compat', 'games.json'), 'w', encoding='utf-8', newline='\n') as f:

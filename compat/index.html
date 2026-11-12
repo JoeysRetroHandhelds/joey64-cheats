@@ -84,7 +84,7 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
 .st-runs { background: var(--runs-bg); color: var(--runs-fg); }
 .st-starts { background: var(--starts-bg); color: var(--starts-fg); }
 .st-broken { background: var(--broken-bg); color: var(--broken-fg); }
-.st-notyet { background: var(--notyet-bg); color: var(--notyet-fg); }
+.st-notyet, .st-notgame { background: var(--notyet-bg); color: var(--notyet-fg); }
 .listhead { padding: 14px 18px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 12px; align-items: baseline; }
 .listhead h2 { margin: 0; font-size: 18px; font-weight: 600; }
 .listhead span { font-size: 13px; color: var(--muted); }
@@ -204,7 +204,7 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
   setTheme(saved);
   document.querySelectorAll('[data-theme-pick]').forEach(function (b) { b.addEventListener('click', function () { setTheme(b.dataset.themePick); }); });
 
-  var STATUS = { runs: 'Runs', starts: 'Starts', broken: 'Broken', notyet: 'Not checked yet' };
+  var STATUS = { runs: 'Runs', starts: 'Starts', broken: 'Broken', notyet: 'Not checked yet', notgame: 'Not a game' };
   var TYPES = ['Retail', 'Beta', 'Demo', 'Homebrew', 'Hack', 'Cheat cart', 'Other'];
   var HAS = [['ws', 'Widescreen'], ['f60', '60 fps code'], ['rumble', 'Rumble Pak'], ['tpak', 'Transfer Pak'], ['exp', 'Needs Expansion Pak']];
   var S = { q: '', region: '', sort: 'az', status: '', gpu: '', type: '', has: {}, open: '', limit: 100 };
@@ -283,7 +283,7 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
       var dir = S.sort === 'fast' ? -1 : 1;
       list = list.slice().sort(function (a, b) { var x = a.fps || 0, y = b.fps || 0; if (!x && !y) return 0; if (!x) return 1; if (!y) return -1; return dir * (x - y); });
     }
-    var counts = { runs: 0, starts: 0, broken: 0, notyet: 0 };
+    var counts = { runs: 0, starts: 0, broken: 0, notyet: 0, notgame: 0 };
     D.games.filter(function (g) { var s = S.status; S.status = ''; var m = match(g); S.status = s; return m; }).forEach(function (g) { counts[g.status]++; });
     chips('g-status', [{ v: '', label: 'All', on: !S.status }].concat(Object.keys(STATUS).map(function (k) { return { v: k, label: STATUS[k], n: counts[k], on: S.status === k }; })), S.status, function (v) { S.status = v; S.limit = 100; render(); });
     chips('g-gpu', [{ v: '', label: 'Any', on: !S.gpu }].concat(['Adreno 8xx', 'Adreno 7xx', 'Mali'].map(function (k) { return { v: k, label: k, on: S.gpu === k }; })), S.gpu, function (v) { S.gpu = v; S.limit = 100; render(); });

@@ -26,7 +26,7 @@ Mario Tennis (Europe) (Wii Virtual Console)	starts	Hung before its first frame u
 Mario Tennis (USA) (Wii Virtual Console)	starts	Hung before its first frame until 2026-11-12: this Wii Virtual Console copy kept the cartridge's header checksum over changed code, so the boot code never finished. Since core rel2 c994aa7 Joey64 boots it with the right checksum (checked on the Retroid Pocket Flip and Duo).
 Mario Tennis 64 (Japan) (Wii Virtual Console)	starts	Hung before its first frame until 2026-11-12: this Wii Virtual Console copy kept the cartridge's header checksum over changed code, so the boot code never finished. Since core rel2 c994aa7 Joey64 boots it with the right checksum (checked on the Retroid Pocket Flip and Duo).
 Nacho 64 (World) (Auto Demo) (Unl)	starts	Closed 18 s in before core rel1. Rerun 2026-11-12 on the bundled core: no close, but it runs slowly on the Retroid Pocket Flip.
-Nintendo 64 Modem (Japan) (Add-on)	broken	Not a game: the modem cartridge for the 64DD online service. Since 2026-11-12 it stops with an error instead of the app closing.
+Nintendo 64 Modem (Japan) (Add-on)	notgame	Not a game: the modem cartridge for the 64DD online service. Since 2026-11-12 it stops with an error instead of the app closing.
 Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console)	starts	Hung before its first frame until 2026-11-12: this Wii Virtual Console copy kept the cartridge's header checksum over changed code, so the boot code never finished. Since core rel2 c994aa7 Joey64 boots it with the right checksum (checked on the Retroid Pocket Flip and Duo).
 Retro Dash (World) (N64brew Game Jam 2020) (Aftermarket) (Unl)	starts	Closed about 16 s in on the run's first build. Rerun 2026-11-12 on the current core (Retroid Pocket Duo): runs for the whole 150 s check.
 Spacer (World) (Unl)	starts	Closed about 16 s in on the run's first build. Rerun 2026-11-12 on the current core (Retroid Pocket Duo): runs for the whole 150 s check.
@@ -41,3 +41,6 @@ Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997)	broken	No picture: it hang
 Xplorer 64 (Germany) (v1.067) (Unl)	broken	A cheat cartridge: on a console a game cartridge plugs in on top of it, which emulators don't have. It hangs before its first frame here and in upstream mupen64plus-next.
 Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-05-03)	broken	This dump has no boot code (the boot area is empty), so it can't start on a console either.
 Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-06-06) [b]	broken	A bad dump (marked [b], and its checksum doesn't match its data): it boots, then shows nothing after its first frame.
+[BIOS] Nintendo 64 - PIF (Brazil)	notgame	Not a game: a dump of the console's PIF boot ROM, not a cartridge. Joey64 doesn't need it.
+[BIOS] Nintendo 64 - PIF (Europe)	notgame	Not a game: a dump of the console's PIF boot ROM, not a cartridge. Joey64 doesn't need it.
+[BIOS] Nintendo 64 - PIF (Japan, USA)	notgame	Not a game: a dump of the console's PIF boot ROM, not a cartridge. Joey64 doesn't need it.
