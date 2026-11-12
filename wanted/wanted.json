@@ -1,0 +1,2717 @@
+{
+ "version": 1,
+ "games": [
+  {
+   "md5": "632c98cf281cda776e66685b278a4fa6",
+   "title": "1080 Snowboarding",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "c6061ad1b4446c4db57cdf094da7c534",
+   "title": "1080 Snowboarding",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "fa27089c425dbab99f19245c5c997613",
+   "title": "1080 Snowboarding",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "0c7b165cf3553ef550067d0c46681097",
+   "title": "2048",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "66335f4dc6ab27034398bc26f263b897",
+   "title": "64 Hanafuda - Tenshi no Yakusoku",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e9d53f8232119234a4c496c85765b57e",
+   "title": "64Noid",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "256a1cb23f9e1a2762a7a171417b5d68",
+   "title": "Akumajou Dracula Mokushiroku - Real Action Adventure",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "47ea239717c4d225c9d0e9fd37b9fcb3",
+   "title": "Akumajou Dracula Mokushiroku Gaiden - Legend of Cornell",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "82b3f5139a8f843d5e8d6a5c7d74e994",
+   "title": "Alien Sun",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "90448c4175ee9d0247674474dcabdfed",
+   "title": "All-Star Baseball 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "aada358ce97f06c4df5bf55987268844",
+   "title": "All-Star Baseball 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "6e01b8d425ae74ef5a0f875c700a3b18",
+   "title": "All-Star Baseball 2001",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "78551d23f230b58b9f449cdb4a285761",
+   "title": "All-Star Baseball 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "ed5f1e12da36dbec8a0a24ed98d4aed5",
+   "title": "All-Star Baseball 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "0c2cbafec6f184ad39ef29b2b5e0f44a",
+   "title": "Armorines - Project S.W.A.R.M.",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "2bc48b3e6f61896b9bc7bef5205cc49c",
+   "title": "Armorines - Project S.W.A.R.M.",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "755df7f57edf87706d4c80ff15883312",
+   "title": "Army Men - Air Combat",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "786124acbcdf0802ae94fe5cd6f5c2b3",
+   "title": "Asteroid Shooter",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e01c594074002a0c7b947728ad373588",
+   "title": "Asteroids 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "8107825ac2a522057422463ed81e276b",
+   "title": "Bakuretsu Muteki Bangaioh",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "715a8816f30fa24b8d174dc5cb6f25a9",
+   "title": "Banjo to Kazooie no Daibouken 2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "61b5c5c3e5e1a81e5d37072c01b39b76",
+   "title": "Banjo-Tooie",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "8b2e56f18421a67bca861427453a1e19",
+   "title": "Banjo-Tooie",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "2c618f6c69c3b4803f08762a03835139",
+   "title": "Bass Rush - ECOGEAR PowerWorm Championship",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "684f4f7cefcc0863710799c8a43dd882",
+   "title": "Bassmasters 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "930c7f6e5863471dde1816d28a10eb88",
+   "title": "Bassmasters 2000 (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "a08676124b326b1035b202c83a97468f",
+   "title": "Batman Beyond - Return of the Joker",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "b90ab8f7605d971cc7a6d9ba5e67d1af",
+   "title": "Bio F.R.E.A.K.S.",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "0068e81bf8037e7c8af658f0ddae9400",
+   "title": "Blues Brothers 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "31b4a8ed52b48e756b344c9f22736e50",
+   "title": "Blues Brothers 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "410bf50920c28ce6d2c36174f659b0d7",
+   "title": "Blues Brothers 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "997fd8f79cd6f3cd1c1c1fd21e358717",
+   "title": "Blues Brothers 2000 (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "1cf31e7f6e0deb2c18c39ddd4eed9e51",
+   "title": "Bokujou Monogatari 2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "24e3ee6a54278db65c463804f2bb6223",
+   "title": "Bokujou Monogatari 2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e627b898a7692c08b595a8d2178e34a0",
+   "title": "Bokujou Monogatari 2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "d54fd7067bd774e32b57f9c2c0496899",
+   "title": "Bomberman 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "aec1fdb0f1caad86c9f457989a4ce482",
+   "title": "Bomberman 64 - The Second Attack! (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "fb19afd5e8c49978e6e6ae3622e0498a",
+   "title": "Bottom of the 9th",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "2d70f98a8a9f2c74b6b7a043180fb8a3",
+   "title": "Brew Volley",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9afa72cacd58dc5c4c0dac894700a914",
+   "title": "Bug Game",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "8567382d3cd5bc0406b7b4c780f621dc",
+   "title": "Bust-A-Move '99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "094f639a9ba63b2136d2887c8d72bca0",
+   "title": "Bust-A-Move 2 - Arcade Edition",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "8897a39e34aee4d3f807af255c6617d6",
+   "title": "Bust-A-Move 2 - Arcade Edition",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3ea21256ddc4157c3231ae5cc9c4652a",
+   "title": "Bust-A-Move 3 DX",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "d74f0b8738eb1b46248ff286df7615d3",
+   "title": "Bust-A-Move 3 DX",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "31bb57c1fad0d47dc2353c1950b11886",
+   "title": "Carmageddon 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "b603c47005772019d9ef5c861da976e7",
+   "title": "Castle 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "06b58673f7d31c56f8fe8186e86f6bd6",
+   "title": "Castlevania",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "1cc5cf3b4d29d8c3ade957648b529dc1",
+   "title": "Castlevania",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "57146b6cd8ee7d96b01a811f98a1ac61",
+   "title": "Castlevania",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "ce71d1ce0a2b6d597f72cb4fc08f5844",
+   "title": "Castlevania",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "25258460f98f567497b24844abe3a05b",
+   "title": "Castlevania - Legacy of Darkness",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "78d5f8a98a5ed21d0817856bcd2ad750",
+   "title": "Castlevania - Legacy of Darkness",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "747e76d50dc3c06fd35e146129706a60",
+   "title": "Charlie Blast's Territory",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "4975a1a8870e0f39f272e7fd20690c84",
+   "title": "Chip8 C64 Emulator",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "c37e8afb4f3ecc86d01ce7388ca59347",
+   "title": "Chopper Attack",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "9081370141079031ebbdbca56fc8c7d8",
+   "title": "Choro Q 64 2 - Hacha Mecha Grand Prix Race",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "30e7e083b978408d5b7760d0ce4dc61d",
+   "title": "Clay Fighter - Sculptor's Cut",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "3207bf22e305c488109b09a03706f36f",
+   "title": "Clay Fighter 63 1-3",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "1a9195662c89dcbea88bcfa99b096cde",
+   "title": "Command & Conquer",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "42da4c7d040f9e7cd046a42ec3e68027",
+   "title": "Command & Conquer",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b436f4717ac585b0d847756468fd6393",
+   "title": "Command & Conquer",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "633b7f7a984bc354782490148c597f69",
+   "title": "Commander Keen in Goodbye, Galaxy",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "db7a03b77d44db81b8a3fcdfc4b72d8c",
+   "title": "Cruis'n Exotica (USA)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "2838a9018ad2bcb8b7f6161c746a1b71",
+   "title": "Cruis'n USA",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "41ca21bd737e16ba81168982b74276f1",
+   "title": "Cruis'n USA",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "45fc88e2ba6711f25f0de988e719df29",
+   "title": "Cruis'n USA",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "69cd5ba6bc9310b9e37ccb1bc6bd16ad",
+   "title": "Cruis'n USA",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "115118dd5e0f02d82ba1bf070a7b78f1",
+   "title": "Custom Robo V2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "0b86fa9259e2b751111a1701091644b1",
+   "title": "Dance Dance Revolution - Disney Dancing Museum",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "c644e318b33c4ebd94695c0c3e1e80ff",
+   "title": "Defi au Tetris Magique",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7fccb47498eec06e96ae9372247d1e90",
+   "title": "Destruction Derby 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "bda717ecc8434f12f313342485828b58",
+   "title": "Destruction Derby 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4f0e07f0eeac7e5d7ce3a75461888d03",
+   "title": "Diddy Kong Racing (USA) (En,Fr)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "49f7bb346ade39d1915c22e090ffd748",
+   "title": "Dinosaur Planet",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3f345578242eb8c7f8f9710df6432abb",
+   "title": "Donsol",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "1a7936367413e5d6874abda6d623ad32",
+   "title": "Dr. Mario 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "697db27690b4f031cf91f28bc445a29f",
+   "title": "Dr. Mario 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "944eced50e57d46779576f732cb27dc0",
+   "title": "Dragon King",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "1830ede2557e8685e6f76d05cc65076a",
+   "title": "ECW Hardcore Revolution",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "5d1e41aa28169e71b4919fa08f1acd9b",
+   "title": "ECW Hardcore Revolution",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "bc8c8ebe227a75e23fdc339d06aade19",
+   "title": "ECW Hardcore Revolution",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "8eebb16b7a4d39ae8bc8cccbc41f0a01",
+   "title": "ECW Hardcore Revolution (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "b4e13ec6150e4e84a25cec4e879b25b5",
+   "title": "EEPROM & SRAM Erase Program",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "affd2c50a0381dc2aff24adb82b289e2",
+   "title": "Evil Australians",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "44fe06ba3686c02a7988f27600a533da",
+   "title": "Extreme-G XG2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "bb7f98e657fb4b5fcc7dc04bd72e2d2b",
+   "title": "Extreme-G XG2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "f17884a2c16fb6fd11a74d65b1388b4a",
+   "title": "Extreme-G XG2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "33412e74de9a1d220b709c8c17070d75",
+   "title": "Fanger's Lightmare",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "5cba7f7899fbd02e23bb2542dc3994a9",
+   "title": "Featherlight",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "64d506e82a064bb1aa2bcadeecf130a3",
+   "title": "Featherlight",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b662e35b9ac1c95a4736547c9c997dc4",
+   "title": "Featherlight",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "26b18d35984528ae2f90adbb2f2642f7",
+   "title": "FIFA - Road to World Cup 98",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9a7006212947ee7648ee1d13162e55e0",
+   "title": "FIFA 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "cc7c58a032aaba19e72ccbfa6b3eeff6",
+   "title": "FIFA Soccer 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "88a02053a4c7530f7a5450852fba98a9",
+   "title": "Fission Failure 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "09310c3e96ffd9639ddfa53a9ba374b5",
+   "title": "Flappy Bird",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3ee890905a76accc2754a262b59c5544",
+   "title": "Flappy Bird",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4e891d115a877a62d82f0498906762f0",
+   "title": "Flappy Bird",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4f72168ef462293168c936589f10bc22",
+   "title": "Flappy Bird",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "d6ce702be7af8132e4dee57f974935ac",
+   "title": "Flappy Bird",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4b175ed0f7ebcb74f529af2e482fdf96",
+   "title": "Flood64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "272b359d8f8ac48acbf053c262f422e4",
+   "title": "Flying Dragon",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "28c2108a375f7731e719333a09439d2f",
+   "title": "Gauntlet Legends",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3b2615d754a61e45b1034d555d830a78",
+   "title": "Gauntlet Legends",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "85ba92b8c4a20ff41b73623a1e794c8b",
+   "title": "Gauntlet Legends",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9cb963e8b71f18568f78ec1af120362e",
+   "title": "Gauntlet Legends (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "5270d98f9e67dc7ef354ece109c2a18f",
+   "title": "Getter Love!! - Cho Renai Party Game Tanjou",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "43b9a7a5ccb6ea3f4860f9f80d73669d",
+   "title": "Gex 3 - Deep Cover Gecko",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "6770ddec84eb21a5e0d0f55dfd52a01a",
+   "title": "Gex 3 - Deep Cover Gecko",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9f0492a34d7a2d7c4e9f29dc1848a04a",
+   "title": "Gex 3 - Deep Cover Gecko",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "47f9d900c97ece154bb40a9c6dccd3fd",
+   "title": "Gex 64 - Enter the Gecko",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "5bba457e286d250101ce274e0e58080d",
+   "title": "Gex 64 - Enter the Gecko",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "de127aa55773643e1600fe2b4c69bdbe",
+   "title": "Glamorous Zombie Flakes",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "628aa3cd492559b705488f634797e045",
+   "title": "GT 64 - Championship Edition",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "1546877fd85c00a83515005727e5fda5",
+   "title": "Hercules - The Legendary Journeys",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "5f1304c94e1b355398abd8141657382d",
+   "title": "Hercules - The Legendary Journeys",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "fa1bb2483dae322f2b336878b3b95229",
+   "title": "Hercules - The Legendary Journeys",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "6bbd8c42f6ef8f5b9541d6f4db657dd7",
+   "title": "Hercules - The Legendary Journeys (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "1280c78f286fc1c437a4905ee42c47f1",
+   "title": "Hey You, Pikachu!",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4311a1aef1898678331f7e3486055307",
+   "title": "Hot Wheels - Turbo Racing",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "bf3e84cdd01cac05987fd8da5191534b",
+   "title": "In-Fisherman - Bass Hunter 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "c605f40bf669e00a5e51baf0d00621ea",
+   "title": "In-Fisherman - Bass Hunter 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "63d7ab29ba3dfc5d5b12c1d9c5832355",
+   "title": "Indiana Jones and the Infernal Machine",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "70de1eab508596b6bbefd168b5d07194",
+   "title": "Indiana Jones and the Infernal Machine",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "a7781d441af55c4ff8afc68ab3a59313",
+   "title": "Indy Racing 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "35662cfd07fd6af4bab90ca23f7c98e6",
+   "title": "International Track & Field 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "209db8333eeb526ae9a91209175348ce",
+   "title": "J.League Live 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4c5be1bfc1cccff501eba2a685226962",
+   "title": "Jeremy McGrath Supercross 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "8046a4b8abd4353b2ab9696106ccf8d2",
+   "title": "Jeremy McGrath Supercross 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "ab2c4f7ee5b773f1e63362fe32223385",
+   "title": "Jeremy McGrath Supercross 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7b261247150c431de55ab371e8b46ea8",
+   "title": "Jikuu Senshi Turok",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "2fd4db302515e520b13b5de7affa7a5a",
+   "title": "Juic'n 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9e0c14fca6628a37528c9a8abbc6dfd6",
+   "title": "Juic'n 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "8e33ad20c31feb61d7230fad28846c5c",
+   "title": "Killer Instinct Gold",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "c6b01c020fdfd2e5c037c5a330b161ad",
+   "title": "Kobe Bryant in NBA Courtside",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "d37c79e4e4eabcb5dc6a07bd76688223",
+   "title": "Kobe Bryant in NBA Courtside (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "26b5eaa13dc5b5e35307fe8c0cf5b6ba",
+   "title": "LEGO Racers",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "6310c7173385ed2b06020f3b90158e9e",
+   "title": "LEGO Racers",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "2bb2d6295356e4a47200671ccc67b056",
+   "title": "Lunar Assault 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9f1d303b9e4788975e4b4d5cd890940b",
+   "title": "Lunar Assault 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "d0da4da6aeaca000e26b86ff7b0f20cd",
+   "title": "Lunar Assault 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e391b698cc369d90cb98fcb273b79e9a",
+   "title": "Lunar Assault 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e8af667ec10dea3eaffa6de63a919a63",
+   "title": "Lunar Assault 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "67c96076459eb5f71733f39d7fcc76a3",
+   "title": "Madden Football 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "903b912ce88626900221731224e9dbe8",
+   "title": "Madden Football 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "955d19e26b4ba7cc941f86a54a0fc13d",
+   "title": "Madden NFL 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "441fa65faa5c12339f89a0bb7db43c8f",
+   "title": "Madden NFL 2001",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "ad0f2ec565d7575fb37512bc8df8a092",
+   "title": "Madden NFL 2002",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "507ceab72ef2a1bf145bf190f5ce1c80",
+   "title": "Madden NFL 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "5ad80a8ef44dee1fdc456d66104165b4",
+   "title": "Madden NFL 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "5f3d42d5f96191f3ce50d70e0e42127a",
+   "title": "Madden NFL 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e7bf80861a0ab2a788959463d953b5d5",
+   "title": "Madden NFL 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "02ce2aa322a0047f5715519e06a95c55",
+   "title": "Magic & Legend - Time Knights",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "20e51b27e8098a9d101b44689014c281",
+   "title": "Magical Tetris Challenge",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "79fcc98002d1f4c79deaf55784222df8",
+   "title": "Magical Tetris Challenge",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e0992a90191be4f1b2ba02258599334e",
+   "title": "Magical Tetris Challenge",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "f1ff1f364c459701f42beb8989675d44",
+   "title": "Magical Tetris Challenge featuring Mickey",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b18bc60ea6b9c72048fd84a2b8f182d4",
+   "title": "Manic Miner 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9e25ffe8fb0931f67b4e42c5f74ecbc0",
+   "title": "Mario Party 2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4731025e850faf8c0500dc04e1a3bff2",
+   "title": "Mario Tennis",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "d40fb0e87996af902eff9c194027fc3b",
+   "title": "Mario Tennis",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "137a4e7dd0485edccb3bf598b1472d11",
+   "title": "Mario Tennis 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3620674acb51e436d5150738ac1c0969",
+   "title": "Mega Man 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "cd0824e9405185af434837ba1c8c0cd5",
+   "title": "Mega Man 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "a4039368e0472c68e3072c02c7a80f94",
+   "title": "Mia Hamm Soccer 64 (USA) (En,Es)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "033d72e91b2ad5c47835be02da38a6e4",
+   "title": "Michael Owen's WLS 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "892222cc4baf9958405d20bc492175bf",
+   "title": "Michael Owen's WLS 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4f256146bac4a3dde5ad0d5f9c909251",
+   "title": "Milo's Astro Lanes",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "9c6cf9d3cb5852439de4ef4a399253b9",
+   "title": "Mini Racers",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "d51506edb0a941a00eb45850703b32cb",
+   "title": "Monopoly (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "38a82a56ae61a4d354c6a26e64d25e1c",
+   "title": "Mortal Kombat Mythologies - Sub-Zero",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "deec4faec416f4e02d934c2e42c0caad",
+   "title": "Mortal Kombat Mythologies - Sub-Zero",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "26129419799db01bfe79f279ec43b334",
+   "title": "Mortal Kombat Trilogy",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3dcb15043063bd656a0223c519218cfb",
+   "title": "Mortal Kombat Trilogy",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7a558bbad8ce8828414a9cf3b044a87d",
+   "title": "Mortal Kombat Trilogy",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9b7f29aab911d6753f2011c48da752bf",
+   "title": "Mortal Kombat Trilogy",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b6a7b85c123df4e0b9cc118578dbc9a2",
+   "title": "Mortal Kombat Trilogy",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "08bea3310e778a6584eb64cd3f15f86e",
+   "title": "Ms. Pac-Man - Maze Madness",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "919a27c2abbea83ba996cee553227929",
+   "title": "Nacho 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "c17f78a103d99b21533f0c1566378ef6",
+   "title": "Nagano Winter Olympics '98",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "e61251d2819e3bf3a9c0b95329f60f70",
+   "title": "Namco Museum 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "62365463743857cfc823978e0e590d84",
+   "title": "NBA Hangtime",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "dc15fcbeae0f1fef7bee141d77bb25a0",
+   "title": "NBA Hangtime",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "bbb48be198089a26050c84fe5b7b8bd5",
+   "title": "NBA in the Zone '98",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "604feb17258044a3e6c3aa9d2c5b62f9",
+   "title": "NBA Jam 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "afecc9a2df7b1a66a6b7ab3aa8b4bd2e",
+   "title": "NBA Jam 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "2fed0445c97a9d293a3fba5c786b2c39",
+   "title": "NBA Jam 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "be72be370bc0a76d403ff2b9ed2a9173",
+   "title": "NBA Jam 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "adbe5ca10f659af2be712038e8522704",
+   "title": "NBA Jam 99 (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "881e98b47f32093c330a8b0dad6bb65d",
+   "title": "NBA Showtime - NBA on NBC",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "7f6c5e71711dec81e77ccf71060f67ca",
+   "title": "NFL Blitz",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "7e856fa8f743900feba5a4e28c234af7",
+   "title": "NFL Blitz - Special Edition",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "ba49514441023722f02d41c62612f6c3",
+   "title": "NFL Blitz 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "e4edd73cb036c6b143cee9aeeed60341",
+   "title": "NFL Blitz 2001",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "fd2cbdea0992452b52e2803224232d12",
+   "title": "NFL QB Club 2001",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "75c0121d84915bf5c1fbd389cf9f9c17",
+   "title": "NFL Quarterback Club 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "ec18e3131040842e32ebab66c7496ebd",
+   "title": "NFL Quarterback Club 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7ec0484c2ba6aa9f0a45d7ac1f4117da",
+   "title": "NFL Quarterback Club 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "928869d1ce001b813ba908dfe18d7f94",
+   "title": "NFL Quarterback Club 99",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "aced6f89b3500c618afe47c04f0256e8",
+   "title": "Nuclear Strike 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "af7083fc0abcfd5a2c6a5e971453d831",
+   "title": "Off Road Challenge",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e96fecba52905db14addad7cfd61091f",
+   "title": "Off Road Challenge",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "f04c8f511b678301b21c54a27cb08bb9",
+   "title": "Ogre Battle 64 - Person of Lordly Caliber",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9c99c6d9ea98a960056c531cb78eb35b",
+   "title": "Olympic Hockey 98",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "b7f2eb7989c9c00096655d087d72ec51",
+   "title": "Paperboy",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "c4cbcb54b010a5a71fe5caa391e5c25f",
+   "title": "Paperboy",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "0656bb43b3ec505cfa5ae5f93408db8d",
+   "title": "Parlor! Pro 64 - Pachinko Jikki Simulation Game",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "617ceca1d2beffce943ef832326898bf",
+   "title": "PGA European Tour",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "e0901d23a7e24e938fa62975856bd7f0",
+   "title": "Pikachuu Genki de Chuu",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e0bcb2758edf0ac6ab7db36d98e1e57c",
+   "title": "Pikachuu Genki de Chuu",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "ed1378bc12115f71209a77844965ba50",
+   "title": "Pokemon Stadium (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "1561c75d11cedf356a8ddb1a4a5f9d5d",
+   "title": "Pokemon Stadium 2 (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "f392061d262f6aef3156d1f045c9fb18",
+   "title": "Power Struggle",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7995d76f4ce236b0f0289f47ae523d32",
+   "title": "Pro Mahjong Kiwame 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b42f62483f7ca2aac5af911175463db8",
+   "title": "Pro Mahjong Kiwame 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "22b86ab3f320a607899a0516c90a24d0",
+   "title": "Puyo Puyoon Party",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b478d4af60d43c38ba81de9faea6e057",
+   "title": "Puzzle Bobble 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "fbdd421fc2105cf4b9663df97fd7041d",
+   "title": "Puzzle Master 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "250ad6be7e97306364bfd8f420204d8a",
+   "title": "Pyoro 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "2ac0f88bea02d67896ffeae9e8ec72e7",
+   "title": "Pyoro 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b98d8a94fe2f02384cb923fbb2f9d57e",
+   "title": "Pyoro 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "097605021951024c3ecb2d502c0c2a9f",
+   "title": "Quake",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "592ce7718efdd1ff2f077c9b2b5275fb",
+   "title": "Quake",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "ea552e33973468233a0712c251abdb6b",
+   "title": "Quest 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "0458bc47cd771d8bc66b0ceae6895724",
+   "title": "Rally Challenge 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "08e02f52e0547686a9bfac7cbb03c129",
+   "title": "Rampage - World Tour",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4645672a0cf00ada9b5e37cfde8b024e",
+   "title": "Rampage - World Tour",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "a42f6f14f7ea10abeb3b55ffd42eb572",
+   "title": "Ready 2 Rumble Boxing",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "b04f298721223a22e1150cebc712ee6a",
+   "title": "Resident Evil 2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "989f407b99f9f979c3daf052422c07f4",
+   "title": "Retro Dash",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "41f67b5c8bb8daeffd989123846fc063",
+   "title": "Roadsters",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "d3644b398c090528e0ed9eb3c140366e",
+   "title": "Roadsters (USA) (En,Fr,Es)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "0c74b44680276ffe808cfa6045329819",
+   "title": "Rockman Dash - Hagane no Boukenshin",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "a1082a6676455c040843fd75e92de1a3",
+   "title": "RTL World League Soccer 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "8c432235a57d34bc4a9b8b290e21e01e",
+   "title": "Rugrats - Scavenger Hunt",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "af5be0adff51a8e9c6d771282c295810",
+   "title": "San Francisco Rush 2049",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "cd52af02bfc2e7d088f0306157ff9774",
+   "title": "Sand Castle Clamour",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "6fc90547cbfae1343ba2f91739ee3e25",
+   "title": "Sand City",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9dc86c6796476e70e10f6f3664a13898",
+   "title": "Sblobber 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "15df97a59b2354b130dec3fb86bba513",
+   "title": "Sesame Street - Elmo's Letter Adventure",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "f733453ed26afa0aca8d3eb3b5b6d8ea",
+   "title": "Sesame Street - Elmo's Number Journey",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "407a1a18bd7dbe0485329296c3f84eb8",
+   "title": "Shadowgate 64 - Trials of the Four Towers",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "bcc16f61792b6fc0acfac6471b2930b2",
+   "title": "Shrunk in the Wash",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "37149c4064a1d120b9f4f5482a915262",
+   "title": "Shufflepuck 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "eb31f4f9c1fe26a3a663f74e9790516e",
+   "title": "Snowboard Kids",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "08e1152e9d9742e9bbf6c224b6958f2d",
+   "title": "Snowboard Kids 2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "d313af5f8af4d19f732a1a2c4d4d66bb",
+   "title": "South Park",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "f1ae48b778c8431a50c37eb1ed96b120",
+   "title": "South Park - Chef's Luv Shack",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "1be2624e4c597b8094195a2348900514",
+   "title": "South Park Rally",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "a5b3b1d07af3c0bb51091e68304cce18",
+   "title": "South Park Rally",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "c33fa02791077a71b0afe1cfed47c180",
+   "title": "South Park Rally",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "cdee4b0529b33405a293d51cb3765c57",
+   "title": "South Park Rally",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e3c1c713917bb39ab9e5278894229a84",
+   "title": "South Park Rally",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "630e4122b0743a29c246da2c257f92da",
+   "title": "Spacer",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "5cce8ad5f86e8a373a7525dc4c7e6705",
+   "title": "Star Wars - Shadows of the Empire",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "0bd1f7bb9f4b02520e4e9285c809f099",
+   "title": "Star Wars Episode I - Battle for Naboo",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3cb88b934572e7520f35e5458798775b",
+   "title": "Star Wars Episode I - Battle for Naboo",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "88776081f0f92eef355cd451b9c6a819",
+   "title": "Star Wars Episode I - Battle for Naboo",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7579ab0e79b1011479b88f2bf39d48e0",
+   "title": "Star Wars Episode I - Racer",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "356a5d3d59e0adef6efae6096fc20f77",
+   "title": "StarCraft 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3eb732a8d004263ad8eb0da59a29582a",
+   "title": "StarCraft 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "559f71b861f639b6376d891e3023414b",
+   "title": "StarCraft 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "72b60fac5ee257fa387b43c57632d50c",
+   "title": "StarCraft 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "42af1992978229bbb5f560571708e25e",
+   "title": "Starshot - Space Circus Fever",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "a9c393aa232b32798adf378f4318f99f",
+   "title": "Starshot - Space Circus Fever",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e8b666a429fedb2a1a1228cd450cd4fc",
+   "title": "Stunt Racer 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "542bed9c63d531a7b180ba31924da728",
+   "title": "Styx",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "c496598a657b06ba752ccc43b0e7b555",
+   "title": "Sub Mare Imperium - Derelict 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b039ffd0fff45dce4f25f63834b9ce42",
+   "title": "Summer's Story",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b52b2e09892579384f271dba78060555",
+   "title": "Super Snooper Spookers",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "26f4ca20f7b9c88199ac046c57e282b4",
+   "title": "Susume! Taisen Puzzle Dama - Toukon! Marutama Chou",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "5d82e903f65341487ddc11af80ad607a",
+   "title": "Tarzan",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "bd1de2fc1cf31096423563a40ecbf933",
+   "title": "Tarzan",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "df3cdd959e8c63b45f557fc197ce0e63",
+   "title": "Tarzan",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "eae7e0ee5328ed9f13b9cf9990189928",
+   "title": "Tarzan",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7f244aff8d729417e32b6a5b299afda5",
+   "title": "Telefoot Soccer 2000",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "674d416c2bd1ef0192bee34aa260b21a",
+   "title": "Tetris",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7c8efcf4fba28f9f5b5ea10a71283bf3",
+   "title": "Tetris 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "acd0118ac4709db3943b3d35112c2001",
+   "title": "TG Rally 2",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "da35577fe54579f6a266931cc75f512d",
+   "title": "The Legend of Zelda - Ocarina of Time - Master Quest",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "1d2d9d1513a14d05a54d93e67f007d92",
+   "title": "Tiny Nightmare",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "15e4c1b4f3f459d4caa7f7e2cf0c95da",
+   "title": "Tom Clancy's Rainbow Six",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "1b991cf41c70ff2c92ffbefacabe8d03",
+   "title": "Tom Clancy's Rainbow Six",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "80f3b1abd9fb9ae73997489db185a74d",
+   "title": "Tom Clancy's Rainbow Six",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "fdc76a53b1056d3e50ea6a3e295fe4d1",
+   "title": "Tom Clancy's Rainbow Six",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "a0657bc99e169153fd46aeccfde748f3",
+   "title": "Tsumi to Batsu - Hoshi no Keishousha",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "0c0bfd1038eda4f5c958dc362cdff2d6",
+   "title": "Turok - Dinosaur Hunter",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "13faa58604597e4edc608070f8e0ae24",
+   "title": "Turok - Dinosaur Hunter",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "37260287d59fe4ec6049c1d22b5614e6",
+   "title": "Turok - Dinosaur Hunter",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "388440013641887d85b791cf01729fa8",
+   "title": "Turok - Dinosaur Hunter",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "548fc0e6035b65bc2108255039859934",
+   "title": "Turok - Dinosaur Hunter",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "992ba72f4a1e9c51934ff345cdd0d90c",
+   "title": "Turok - Dinosaur Hunter",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "f0f687b449a9f4b0bff08104c35ea08c",
+   "title": "Turok - Dinosaur Hunter",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3bd42f6aec477c056e1afebb3515495c",
+   "title": "Turok 2 - Seeds of Evil",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "03d17aa3dc7663502017d3cc5a19aa8b",
+   "title": "Turok 3 - Shadow of Oblivion",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3d64e47f1c0cba540ed00f816fa75e9d",
+   "title": "Turok 3 - Shadow of Oblivion",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "4ae7c142d09f850f6ac0320034d80fa5",
+   "title": "Turok 3 - Shadow of Oblivion",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9865a336b00e95601ed05a43a2422c23",
+   "title": "Turok 3 - Shadow of Oblivion",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "c38acbae773cc3845ea354421e171998",
+   "title": "Turok 3 - Shadow of Oblivion",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "d44af456933062c4ebe103b6f23518ea",
+   "title": "Turok 3 - Shadow of Oblivion",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "f5738c4b804b0260b99ad39d49ddd43c",
+   "title": "Turok 3 - Shadow of Oblivion",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "37b430ee16167831c6c6292994f93277",
+   "title": "Vigilante 8",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "d616adf6441acbbd0e6bef023a8f6031",
+   "title": "Vigilante 8",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "df011e19f41b1b19c21f1e77e13780b7",
+   "title": "Vigilante 8",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "ff9f85c50982dbdba9853a8915321d31",
+   "title": "Vigilante 8",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "47661ef1964524b6319b759913f08b62",
+   "title": "Vigilante 8 - 2nd Offense",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "60cdf7445fad2aba05c958f46691501b",
+   "title": "Vigilante 8 - 2nd Offense",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "8e7d473161cb685909bc762a32aa850d",
+   "title": "Virtual Pool 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "ab68fb43f012c1a45af1dbcc8e8c109c",
+   "title": "Virtual Pool 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "fedcad4ec658743d99d7587434076e69",
+   "title": "Voidblade",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9ff2ba3c8408de9f0edb6d764a97c197",
+   "title": "War Gods",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "87bf3784709cd09693cd7bcc08460c63",
+   "title": "WCW Mayhem",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "c1384f3637d7a381b29341fed3ef3ceb",
+   "title": "WCW-nWo Revenge (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "1708e096772201a5cd6e085c79cb194c",
+   "title": "Wide-Boy64 AGB",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "20897007193c2ac449ebc98084354988",
+   "title": "Wide-Boy64 AGB",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "dddaecedbdea61182efb30adc217baf2",
+   "title": "Wide-Boy64 AGB",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "e529b3c207db945e9631faf231964cc7",
+   "title": "Wide-Boy64 CGB",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b867880c96c9e8d3130dde5526c95439",
+   "title": "Wildwaters (USA) (1999-06-15) (Proto)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "5783373634b11f81c86908c3d81ca988",
+   "title": "Wipeout 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7260da1cecd0d8844c5e29aa63476def",
+   "title": "Wipeout 64",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "431de8f6611a8131b536f0ede1f330d9",
+   "title": "World Driver Championship",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "7c567a5bb1ad4cbe414fb6bbff66e336",
+   "title": "World Driver Championship (USA)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "096c6f823f32f931cc1319855578049d",
+   "title": "Worms Armageddon",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "44fc2a7f028f0b6f71b255f672c8b495",
+   "title": "Worms Armageddon",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "491d4db6718302489bf05fb962c73651",
+   "title": "Worms Armageddon",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "3fdb2e5f9982fda2c2344a883b8ab6ef",
+   "title": "WWF Attitude",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "b86ec8d19d7d1a50ea900ea10355a735",
+   "title": "WWF Attitude",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "9faf514cb3dbb742c129deb395dca342",
+   "title": "WWF Attitude (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "04c492be7f89fc6f425238bd67629544",
+   "title": "WWF No Mercy",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "ebc0cf55fc58845c6ee86cf8b2d87303",
+   "title": "WWF War Zone",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "2322da2b9e7dc74678cd683b7a246b49",
+   "title": "WWF War Zone (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "d9030ca30e4d1af805acce1bfed988cc",
+   "title": "WWF WrestleMania 2000 (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "ec2bcb1b7fc7d068be1f39e79e49a842",
+   "title": "Xena - Warrior Princess - The Talisman of Fate",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "1ac234649d28f09e82c0d11abb17f03b",
+   "title": "Xena - Warrior Princess - The Talisman of Fate (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "e24942948f7140ee4260268db763d0fd",
+   "title": "Yakouchuu II - Satsujin Kouro",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "bd2b39dacdad7541148d3b26cdf60f1d",
+   "title": "Yeti3D Pro",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "dd8a0e5472f13ea87b176f0155fa0c66",
+   "title": "Yoshi Story",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  },
+  {
+   "md5": "0543ffdc399361740a5b24b364aba6a6",
+   "title": "Yoshi's Story",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level, a race or a match (not a menu, a title screen or a cut scene)",
+   "why": "compat",
+   "enough": 3
+  }
+ ]
+}
