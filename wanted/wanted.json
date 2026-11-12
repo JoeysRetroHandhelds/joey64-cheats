@@ -1,0 +1,181 @@
+{
+ "version": 1,
+ "games": [
+  {
+   "md5": "930c7f6e5863471dde1816d28a10eb88",
+   "title": "Bassmasters 2000 (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "997fd8f79cd6f3cd1c1c1fd21e358717",
+   "title": "Blues Brothers 2000 (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "aec1fdb0f1caad86c9f457989a4ce482",
+   "title": "Bomberman 64 - The Second Attack! (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "db7a03b77d44db81b8a3fcdfc4b72d8c",
+   "title": "Cruis'n Exotica (USA)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "4f0e07f0eeac7e5d7ce3a75461888d03",
+   "title": "Diddy Kong Racing (USA) (En,Fr)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "8eebb16b7a4d39ae8bc8cccbc41f0a01",
+   "title": "ECW Hardcore Revolution (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "9cb963e8b71f18568f78ec1af120362e",
+   "title": "Gauntlet Legends (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "6bbd8c42f6ef8f5b9541d6f4db657dd7",
+   "title": "Hercules - The Legendary Journeys (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "d37c79e4e4eabcb5dc6a07bd76688223",
+   "title": "Kobe Bryant in NBA Courtside (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "a4039368e0472c68e3072c02c7a80f94",
+   "title": "Mia Hamm Soccer 64 (USA) (En,Es)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "d51506edb0a941a00eb45850703b32cb",
+   "title": "Monopoly (USA)",
+   "kind": "gameplay",
+   "need": "A save state while playing, out in a level (not a menu or a cut scene)",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "adbe5ca10f659af2be712038e8522704",
+   "title": "NBA Jam 99 (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "ed1378bc12115f71209a77844965ba50",
+   "title": "Pokemon Stadium (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "1561c75d11cedf356a8ddb1a4a5f9d5d",
+   "title": "Pokemon Stadium 2 (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "d3644b398c090528e0ed9eb3c140366e",
+   "title": "Roadsters (USA) (En,Fr,Es)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "c1384f3637d7a381b29341fed3ef3ceb",
+   "title": "WCW-nWo Revenge (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "9faf514cb3dbb742c129deb395dca342",
+   "title": "WWF Attitude (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "2322da2b9e7dc74678cd683b7a246b49",
+   "title": "WWF War Zone (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "d9030ca30e4d1af805acce1bfed988cc",
+   "title": "WWF WrestleMania 2000 (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "b867880c96c9e8d3130dde5526c95439",
+   "title": "Wildwaters (USA) (1999-06-15) (Proto)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "7c567a5bb1ad4cbe414fb6bbff66e336",
+   "title": "World Driver Championship (USA)",
+   "kind": "gameplay",
+   "need": "A save state in a race, partway round any track",
+   "why": "widescreen",
+   "enough": 5
+  },
+  {
+   "md5": "1ac234649d28f09e82c0d11abb17f03b",
+   "title": "Xena - Warrior Princess - The Talisman of Fate (USA)",
+   "kind": "gameplay",
+   "need": "A save state during a match, with the players on screen",
+   "why": "widescreen",
+   "enough": 5
+  }
+ ]
+}

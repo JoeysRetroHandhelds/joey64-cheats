@@ -181,6 +181,9 @@ def main():
     own16, exppak = app_lists(a.app)
     gamedb = json.load(open(a.gamedb, encoding='utf-8'))['games']
     notes = {r[0]: r[1:] for r in tsv(os.path.join(HERE, 'compat', 'notes.tsv')) if r and not r[0].startswith('#')}
+    # wanted/wanted.json: games Joey64 asks players for a save state of (the state-request popup, 2026-11-12)
+    wp = os.path.join(HERE, 'wanted', 'wanted.json')
+    wanted = {w['md5'].upper(): w for w in json.load(open(wp, encoding='utf-8')).get('games', [])} if os.path.exists(wp) else {}
 
     fa = os.path.join(a.results, 'fullattract')
     times, keyed = {}, {}
@@ -239,6 +242,8 @@ def main():
                 g['wsWhere'] = own16[gid].split(', ', 1)[-1]
             g['f60'] = any(FPS_NAME.search(x) for x in cn)
             g['exp'] = gid in exppak
+            if info['md5'] in wanted:
+                g['want'] = wanted[info['md5']]['need']
             for d in gamedb:
                 if d.get('id') == gid and (not d.get('crc') or d['crc'].upper() == info['crc1'] + info['crc2']):
                     g['set'] += [s['what'] for s in d.get('settings', [])]

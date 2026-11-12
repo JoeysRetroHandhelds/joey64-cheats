@@ -199,7 +199,7 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
 
   var STATUS = { runs: 'Runs', starts: 'Starts', broken: 'Broken', notyet: 'Not checked yet', notgame: 'Not a game' };
   var TYPES = ['Retail', 'Beta', 'Demo', 'Homebrew', 'Hack', 'Cheat cart', 'Other'];
-  var HAS = [['ws', 'Widescreen'], ['f60', '60 fps code'], ['rumble', 'Rumble Pak'], ['tpak', 'Transfer Pak'], ['exp', 'Needs Expansion Pak']];
+  var HAS = [['ws', 'Widescreen'], ['f60', '60 fps code'], ['rumble', 'Rumble Pak'], ['tpak', 'Transfer Pak'], ['exp', 'Needs Expansion Pak'], ['want', 'Help wanted']];
   var S = { q: '', region: '', sort: 'az', status: '', gpu: '', type: '', has: {}, open: '', limit: 100 };
   var D = null;
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
@@ -215,6 +215,7 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
     if (S.has.rumble && g.paks.indexOf('Rumble Pak') < 0) return false;
     if (S.has.tpak && g.paks.indexOf('Transfer Pak') < 0) return false;
     if (S.has.exp && !g.exp) return false;
+    if (S.has.want && !g.want) return false;
     if (S.q) { var h = (g.title + ' ' + g.name).toLowerCase(); if (h.indexOf(S.q) < 0) return false; }
     return true;
   }
@@ -254,6 +255,7 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
     var how = esc(g.ev || 'Not run yet.');
     out.push(box('How it was checked', how));
     if (g.note) out.push(box('Notes', esc(g.note)));
+    if (g.want) out.push(box('Help wanted', esc(g.want) + '. After you play this game for a while, Joey64 asks once whether it can send us one; you can say no, or never be asked again.'));
     if (g.set && g.set.length) out.push(box('What Joey64 sets for it', g.set.map(esc).join('<br>')));
     if (g.on.length) out.push(box('Tested on', g.on.map(function (d) { var x = D.devices[d]; return esc(x.name + ' (' + x.gpu + ')'); }).join('<br>')));
     var gear = [];

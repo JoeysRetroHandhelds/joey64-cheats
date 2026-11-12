@@ -95,7 +95,18 @@ A code it finds goes into `joey64/` only after it has been play-tested.
 
 `compat/` is how each game ran in Joey64's test runs on four handhelds (Adreno 8xx, 7xx and Mali):
 `tools/compat-page.py` builds `games.json` and `index.html` from the runs' results; `notes.tsv` holds hand-written
-status and notes by No-Intro name. Statuses: Runs, Starts, Broken, Not a game, Not checked yet.
+status and notes by No-Intro name. Statuses: Runs, Starts, Broken, Not a game, Not checked yet. Games on the wanted
+list get a Help wanted line and filter.
+
+## Wanted states
+
+`wanted/wanted.json` lists the games Joey64 asks players for a save state of (the in-app popup, after 5 minutes of
+play): `{"version": 1, "games": [{"md5", "title", "kind", "need", "why", "enough"}]}`. `md5` is the ROM's in .z64
+byte order, lower case; `kind` is `gameplay` (a state out in the game, checked by the app for a 3D scene) or
+`problem` (a state where a game goes wrong, no 3D check); `need` is the line players see; `why` is ours
+(`widescreen`, ...); `enough` is how many states we keep before the server answers 410. The server
+(joey64 `server/reports`, `POST /v1/state`) and the app read it from the `release` branch, so a game added here
+is asked for once `release` moves. Take a game off once its states are in.
 
 ## Weekly update
 
